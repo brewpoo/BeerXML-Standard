@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beer_xml xmlns="urn:beerxml:v0" xmlns:unit="urn:beerxml:unit:v0" xmlns:ferm="urn:beerxml:fermentable:v0" xmlns:misc="urn:beerxml:miscellaneous:v0" xmlns:hop="urn:beerxml:hop:v0" xmlns:yeast="urn:beerxml:yeast:v0" xmlns:water="urn:beerxml:water:v0" xmlns:style="urn:beerxml:style:v0" xmlns:mash="urn:beerxml:mash:v0" xmlns:rec="urn:beerxml:recipe:v0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:beerxml:v0 BeerXML.xsd">
+  <version>2.05</version>
+  <cultures>
+    <yeast>
+      <yeast:name>German Ale</yeast:name>
+      <yeast:type>ale</yeast:type>
+      <yeast:form>liquid</yeast:form>
+      <yeast:laboratory>Wyeast Labs</yeast:laboratory>
+      <yeast:product_id>1007</yeast:product_id>
+      <yeast:temperature_range>
+        <unit:minimum degrees="C">12.8</unit:minimum>
+        <unit:maximum degrees="C">20.0</unit:maximum>
+      </yeast:temperature_range>
+      <yeast:flocculation>low</yeast:flocculation>
+      <yeast:attenuation>75.0</yeast:attenuation>
+      <yeast:notes>Crisp dry flavor with a hint of mild flavor.
+Great for many continental ales.</yeast:notes>
+      <yeast:best_for>German Ales, Alts, Kolsch, Dry Stouts</yeast:best_for>
+    </yeast>
+  </cultures>
+</beer_xml>

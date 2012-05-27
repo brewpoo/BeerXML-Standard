@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beer_xml xmlns="urn:beerxml:v0" xmlns:unit="urn:beerxml:unit:v0" xmlns:ferm="urn:beerxml:fermentable:v0" xmlns:misc="urn:beerxml:miscellaneous:v0" xmlns:hop="urn:beerxml:hop:v0" xmlns:yeast="urn:beerxml:yeast:v0" xmlns:water="urn:beerxml:water:v0" xmlns:style="urn:beerxml:style:v0" xmlns:mash="urn:beerxml:mash:v0" xmlns:rec="urn:beerxml:recipe:v0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:beerxml:v0 BeerXML.xsd">
+  <version>2.05</version>
+  <hop_varieties>
+    <hop>
+      <hop:name>Super Hops</hop:name>
+      <hop:origin>Planet Krypton</hop:origin>
+      <hop:alpha_acid_units>4.5</hop:alpha_acid_units>
+      <hop:beta_acid_units>5.5 </hop:beta_acid_units>
+      <hop:type>bittering</hop:type>
+      <hop:notes>This hop is a really cool hops - you can use it for anything.
+It leaps over buildings in a single bound, is faster than
+a speeding bullet and makes really bitter beer.</hop:notes>
+      <hop:percent_lost>30</hop:percent_lost>
+      <hop:substitutes>Goldings, Fuggles, Super Alpha</hop:substitutes>
+      <hop:humulene>2.34</hop:humulene>
+      <hop:caryophyllene>1.23</hop:caryophyllene>
+      <hop:cohumulone>13.2</hop:cohumulone>
+      <hop:myrcene>24.4</hop:myrcene>
+      <hop:inventory>
+        <hop:leaf mass="oz">2.0</hop:leaf>
+        <hop:pellet mass="oz">0.5</hop:pellet>
+        <hop:plug mass="oz">0.0</hop:plug>
+      </hop:inventory>
+    </hop>
+  </hop_varieties>
+</beer_xml>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<beer_xml xmlns="urn:beerxml:v2" xmlns:ferm="urn:beerxml:fermentable:v2" xmlns:hop="urn:beerxml:hop:v2" xmlns:step="urn:beerxml:mash:step:v2" xmlns:mash="urn:beerxml:mash:v2" xmlns:misc="urn:beerxml:miscellaneous:v2" xmlns:rec="urn:beerxml:recipe:v2" xmlns:style="urn:beerxml:style:v2" xmlns:unit="urn:beerxml:unit:v2" xmlns:water="urn:beerxml:water:v2" xmlns:yeast="urn:beerxml:yeast:v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:beerxml:v2 BeerXML.v2.xsd">
+   <version>2.06</version>
+   <recipes>
+      <recipe>
+         <rec:name>#20 1058 Medieval Ale</rec:name>
+         <rec:type>all grain</rec:type>
+         <rec:author></rec:author>
+         <rec:batch_size volume="gal">5.50</rec:batch_size>
+         <rec:boil_size volume="gal">5.50</rec:boil_size>
+         <rec:boil_time duration="min">90.0</rec:boil_time>
+         <rec:efficiency>61.0</rec:efficiency>
+         <rec:style>
+            <style:name>Specialty</style:name>
+            <style:category>Experimental and Historic</style:category>
+            <style:category_number>24</style:category_number>
+            <style:style_letter> </style:style_letter>
+            <style:style_guide>BJCP 1999</style:style_guide>
+            <style:type>mixed</style:type>
+         </rec:style>
+         <rec:ingredients>
+            <rec:grain_bill>
+               <ferm:addition>
+                  <ferm:name>Buckwheat Honey</ferm:name>
+                  <ferm:type>adjunct</ferm:type>
+                  <ferm:color scale="L">0.0</ferm:color>
+                  <ferm:origin>America</ferm:origin>
+                  <ferm:amount mass="lb">2.148</ferm:amount>
+               </ferm:addition>
+               <ferm:addition>
+                  <ferm:name>Flaked Barley</ferm:name>
+                  <ferm:type>adjunct</ferm:type>
+                  <ferm:color scale="L">2.2</ferm:color>
+                  <ferm:origin>America</ferm:origin>
+                  <ferm:amount mass="lb">0.500</ferm:amount>
+               </ferm:addition>
+               <ferm:addition>
+                  <ferm:name>Roasted Barley</ferm:name>
+                  <ferm:type>grain</ferm:type>
+                  <ferm:color scale="L">450.0</ferm:color>
+                  <ferm:origin>America</ferm:origin>
+                  <ferm:amount mass="lb">0.250</ferm:amount>
+               </ferm:addition>
+               <ferm:addition>
+                  <ferm:name>Unmalted Wheat</ferm:name>
+                  <ferm:type>grain</ferm:type>
+                  <ferm:color scale="L">2.7</ferm:color>
+                  <ferm:origin>America</ferm:origin>
+                  <ferm:amount mass="lb">1.500</ferm:amount>
+               </ferm:addition>
+               <ferm:addition>
+                  <ferm:name>Pale Malt(2-row)</ferm:name>
+                  <ferm:type>grain</ferm:type>
+                  <ferm:color scale="L">1.8</ferm:color>
+                  <ferm:origin>America</ferm:origin>
+                  <ferm:amount mass="lb">8.000</ferm:amount>
+               </ferm:addition>
+               <ferm:addition>
+                  <ferm:name>Crystal Malt</ferm:name>
+                  <ferm:type>grain</ferm:type>
+                  <ferm:color scale="L">60.0</ferm:color>
+                  <ferm:origin>America</ferm:origin>
+                  <ferm:amount mass="lb">1.000</ferm:amount>
+               </ferm:addition>
+            </rec:grain_bill>
+            <rec:adjuncts>
+               <misc:addition>
+                  <misc:name>Bitter Orange Peel</misc:name>
+                  <misc:type>spice</misc:type>
+                  <misc:use>boil</misc:use>
+                  <misc:amount_as_weight mass="oz">0.63</misc:amount_as_weight>
+                  <misc:time duration="min">60.0</misc:time>
+               </misc:addition>
+               <misc:addition>
+                  <misc:name>Licorice Stick</misc:name>
+                  <misc:type>spice</misc:type>
+                  <misc:use>boil</misc:use>
+                  <misc:amount_as_weight mass="oz">0.75</misc:amount_as_weight>
+                  <misc:time duration="min">60.0</misc:time>
+               </misc:addition>
+               <misc:addition>
+                  <misc:name>Mugwort</misc:name>
+                  <misc:type>herb</misc:type>
+                  <misc:use>boil</misc:use>
+                  <misc:amount_as_weight mass="oz">1.00</misc:amount_as_weight>
+                  <misc:time duration="min">60.0</misc:time>
+               </misc:addition>
+               <misc:addition>
+                  <misc:name>Juniper Berries</misc:name>
+                  <misc:type>fruit</misc:type>
+                  <misc:use>secondary</misc:use>
+                  <misc:amount_as_weight mass="oz">1.00</misc:amount_as_weight>
+                  <misc:time duration="day">0.0</misc:time>
+               </misc:addition>
+               <misc:addition>
+                  <misc:name>Lemon Balm</misc:name>
+                  <misc:type>herb</misc:type>
+                  <misc:use>boil</misc:use>
+                  <misc:amount_as_weight mass="oz">3.00</misc:amount_as_weight>
+                  <misc:time duration="min">0.0</misc:time>
+               </misc:addition>
+            </rec:adjuncts>
+            <rec:yeast_additions>
+               <yeast:addition>
+                  <yeast:name>English Ale</yeast:name>
+                  <yeast:type>ale</yeast:type>
+                  <yeast:form>liquid</yeast:form>
+                  <yeast:laboratory>Ithaca Beer C</yeast:laboratory>
+                  <yeast:product_id></yeast:product_id>
+                  <yeast:amount volume="mL">0.0</yeast:amount>
+               </yeast:addition>
+            </rec:yeast_additions>
+         </rec:ingredients>
+         <rec:mash>
+            <mash:name>Simple Mash Type - Single Step</mash:name>
+            <mash:grain_temperature degrees="F">80.0</mash:grain_temperature>
+            <mash:notes></mash:notes>
+            <mash:mash_steps>
+               <mash:step>
+                  <step:name>Saccharification Rest</step:name>
+                  <step:type>infusion</step:type>
+                  <step:infuse_amount volume="qt">22.50</step:infuse_amount>
+                  <step:step_temperature degrees="F">158.0</step:step_temperature>
+                  <step:step_time duration="min">70.0</step:step_time>
+                  <step:ramp_time duration="min">5.0</step:ramp_time>
+                  <step:end_temperature degrees="F">158.0</step:end_temperature>
+                  <step:description>Add 22.50 qt of water at 165.0 F</step:description>
+                  <step:water_grain_ratio>2.09</step:water_grain_ratio>
+                  <step:infuse_temperature degrees="F">165.0</step:infuse_temperature>
+               </mash:step>
+            </mash:mash_steps>
+         </rec:mash>
+         <rec:notes></rec:notes>
+         <rec:original_gravity density="sg">1.059</rec:original_gravity>
+         <rec:ibu_estimate method="Other">0.0</rec:ibu_estimate>
+      </recipe>
+   </recipes>
+</beer_xml>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beer_xml xmlns="urn:beerxml:v2" xmlns:ferm="urn:beerxml:fermentable:v2" xmlns:hop="urn:beerxml:hop:v2" xmlns:step="urn:beerxml:mash:step:v2" xmlns:mash="urn:beerxml:mash:v2" xmlns:misc="urn:beerxml:miscellaneous:v2" xmlns:rec="urn:beerxml:recipe:v2" xmlns:style="urn:beerxml:style:v2" xmlns:unit="urn:beerxml:unit:v2" xmlns:water="urn:beerxml:water:v2" xmlns:yeast="urn:beerxml:yeast:v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:beerxml:v2 BeerXML.v2.xsd">
+  <version>2.06</version>
+  <styles>
+    <style>
+      <style:name>Dry Stout</style:name>
+      <style:category>Stout</style:category>
+      <style:category_number>16</style:category_number>
+      <style:style_letter>A</style:style_letter>
+      <style:style_guide>BJCP</style:style_guide>
+      <style:type>ale</style:type>
+      <style:original_gravity>
+        <unit:minimum density="sg">1.035</unit:minimum>
+        <unit:maximum density="sg">1.050</unit:maximum>
+      </style:original_gravity>
+      <style:final_gravity>
+        <unit:minimum density="sg">1.007</unit:minimum>
+        <unit:maximum density="sg">1.011</unit:maximum>
+      </style:final_gravity>
+      <style:international_bitterness_units>
+        <unit:minimum>30.0</unit:minimum>
+        <unit:maximum>50.0</unit:maximum>
+      </style:international_bitterness_units>
+      <style:color>
+        <unit:minimum scale="SRM">35.0</unit:minimum>
+        <unit:maximum scale="SRM">200.0</unit:maximum>
+      </style:color>
+      <style:carbonation>
+        <unit:minimum>1.6</unit:minimum>
+        <unit:maximum>2.1</unit:maximum>
+      </style:carbonation>
+      <style:alcohol_by_volume>
+        <unit:minimum>3.2</unit:minimum>
+        <unit:maximum>5.5</unit:maximum>
+      </style:alcohol_by_volume>
+      <style:notes>Famous Irish Stout.  Dry, roasted, almost coffee like flavor.  Often soured with pasteurized sour beer.</style:notes>
+      <style:profile>Full body perception due to flaked barley, though starting gravity may be low.  Dry roasted flavor.</style:profile>
+      <style:ingredients>Made with black barley and flaked barley,  Hard water.  Irish Ale Yeast.</style:ingredients>
+      <style:examples>Guinness</style:examples>
+    </style>
+  </styles>
+</beer_xml>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beer_xml xmlns="urn:beerxml:v2" xmlns:ferm="urn:beerxml:fermentable:v2" xmlns:hop="urn:beerxml:hop:v2" xmlns:step="urn:beerxml:mash:step:v2" xmlns:mash="urn:beerxml:mash:v2" xmlns:misc="urn:beerxml:miscellaneous:v2" xmlns:rec="urn:beerxml:recipe:v2" xmlns:style="urn:beerxml:style:v2" xmlns:unit="urn:beerxml:unit:v2" xmlns:water="urn:beerxml:water:v2" xmlns:yeast="urn:beerxml:yeast:v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:beerxml:v2 BeerXML.v2.xsd">
+  <version>2.06</version>
+  <fermentables>
+    <fermentable>
+      <ferm:name>Crystal 40 L</ferm:name>
+      <ferm:type>grain</ferm:type>
+      <ferm:color scale="L">40.0</ferm:color>
+      <ferm:origin>United Kingdom</ferm:origin>
+      <ferm:supplier>Fussybrewer Malting</ferm:supplier>
+      <ferm:yield_dry_basis>
+         <ferm:fine_grind>74.0</ferm:fine_grind>
+         <ferm:fine_coarse_difference>1.5</ferm:fine_coarse_difference>
+      </ferm:yield_dry_basis>
+      <ferm:notes>Darker crystal malt.
+Adds body and improves head retention.
+Also called caramel malt.</ferm:notes>
+      <ferm:moisture>4.0</ferm:moisture>
+      <ferm:diastatic_power>0.0</ferm:diastatic_power>
+      <ferm:protein>13.2</ferm:protein>
+      <ferm:max_in_batch>10.0</ferm:max_in_batch>
+      <ferm:recommend_mash>false</ferm:recommend_mash>
+    </fermentable>
+  </fermentables>
+</beer_xml>

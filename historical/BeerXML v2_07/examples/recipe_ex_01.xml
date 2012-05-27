@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beer_xml xmlns="urn:beerxml:v2" xmlns:ferm="urn:beerxml:fermentable:v2" xmlns:hop="urn:beerxml:hop:v2" xmlns:step="urn:beerxml:mash:step:v2" xmlns:mash="urn:beerxml:mash:v2" xmlns:misc="urn:beerxml:miscellaneous:v2" xmlns:rec="urn:beerxml:recipe:v2" xmlns:style="urn:beerxml:style:v2" xmlns:unit="urn:beerxml:unit:v2" xmlns:water="urn:beerxml:water:v2" xmlns:yeast="urn:beerxml:yeast:v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:beerxml:v2 BeerXML.v2.xsd">
+  <version>2.06</version>
+  <recipes>
+    <recipe>
+      <rec:name>Dry Stout</rec:name>
+      <rec:type>all grain</rec:type>
+      <rec:author>Brad Smith</rec:author>
+      <rec:created>2004-01-03</rec:created>
+      <rec:batch_size volume="gal">5.0</rec:batch_size>
+      <rec:boil_size volume="gal">5.5</rec:boil_size>
+      <rec:boil_time duration="min">60.0</rec:boil_time>
+      <rec:efficiency>72.0</rec:efficiency>
+
+      <rec:style>
+        <style:name>Dry Stout</style:name>
+        <style:category>Stout</style:category>
+        <style:category_number>16</style:category_number>
+        <style:style_letter>A</style:style_letter>
+        <style:style_guide>BJCP</style:style_guide>
+        <style:type>ale</style:type>
+      </rec:style>
+
+      <rec:ingredients>
+        <rec:grain_bill>
+          <ferm:addition>
+            <ferm:name>Pale Malt (2 Row) UK</ferm:name>
+            <ferm:type>grain</ferm:type>
+            <ferm:color scale="L">3.0</ferm:color>
+            <ferm:origin>United Kingdom</ferm:origin>
+            <ferm:amount mass="lb">5.0</ferm:amount>
+            <ferm:add_after_boil>false</ferm:add_after_boil>
+          </ferm:addition>
+          <ferm:addition>
+            <ferm:name>Barley, Flaked</ferm:name>
+            <ferm:type>grain</ferm:type>
+            <ferm:color scale="L">2.0</ferm:color>
+            <ferm:origin>United Kingdom</ferm:origin>
+            <ferm:amount mass="lb">2.0</ferm:amount>
+            <ferm:add_after_boil>false</ferm:add_after_boil>
+          </ferm:addition>
+          <ferm:addition>
+            <ferm:name>Black Barley</ferm:name>
+            <ferm:type>grain</ferm:type>
+            <ferm:color scale="L">500.0</ferm:color>
+            <ferm:origin>United Kingdom</ferm:origin>
+            <ferm:amount mass="lb">1.0</ferm:amount>
+            <ferm:add_after_boil>false</ferm:add_after_boil>
+          </ferm:addition>
+        </rec:grain_bill>
+        <rec:hop_bill>
+          <hop:addition>
+            <hop:name>Goldings, East Kent</hop:name>
+            <hop:origin>United Kingdom</hop:origin>
+            <hop:alpha_acid_units>5.00</hop:alpha_acid_units>
+            <hop:form>leaf</hop:form>
+            <hop:use>boil</hop:use>
+            <hop:amount mass="oz">2.5</hop:amount>
+            <hop:time duration="min">60.0</hop:time>
+          </hop:addition>
+        </rec:hop_bill>
+        <rec:adjuncts>
+          <misc:addition>
+            <misc:name>Irish Moss</misc:name>
+            <misc:type>fining</misc:type>
+            <misc:use>boil</misc:use>
+            <misc:amount volume="tsp">0.25</misc:amount>
+            <misc:time duration="min">15.0</misc:time>
+          </misc:addition>
+        </rec:adjuncts>
+        <rec:yeast_additions>
+          <yeast:addition>
+            <yeast:name>Irish Ale</yeast:name>
+            <yeast:type>ale</yeast:type>
+            <yeast:form>liquid</yeast:form>
+            <yeast:laboratory>Wyeast Labs</yeast:laboratory>
+            <yeast:product_id>1084</yeast:product_id>
+            <yeast:amount volume="mL">250.0</yeast:amount>
+          </yeast:addition>
+        </rec:yeast_additions>
+        <rec:water_profile>
+          <water:addition>
+            <water:name>Burton On Trent, UK</water:name>
+            <water:calcium>295.0</water:calcium>
+            <water:bicarbonate>300.0</water:bicarbonate>
+            <water:sulfate>725.0</water:sulfate>
+            <water:chloride>25.0</water:chloride>
+            <water:sodium>55.0</water:sodium>
+            <water:magnesium>45.0</water:magnesium>
+            <water:amount volume="gal">5.5</water:amount>
+          </water:addition>
+        </rec:water_profile>
+      </rec:ingredients>
+
+
+      <rec:mash>
+        <mash:name>Single Step Infusion, 68 C</mash:name>
+        <mash:grain_temperature degrees="C">22.0</mash:grain_temperature>
+        <mash:mash_steps>
+          <mash:step>
+            <step:name>Conversion Step, 68C </step:name>
+            <step:type>infusion</step:type>
+            <step:infuse_amount volume="L">10.0</step:infuse_amount>
+       	    <step:step_temperature degrees="C">68.0</step:step_temperature>
+            <step:step_time duration="min">60.0</step:step_time>
+          </mash:step>
+        </mash:mash_steps>
+      </rec:mash>
+
+      <rec:notes/>
+
+      <rec:original_gravity density="sg">1.036</rec:original_gravity>
+      <rec:final_gravity density="sg">1.012</rec:final_gravity>
+      <rec:carbonation>2.1</rec:carbonation>
+
+      <rec:fermentation_stages>
+        <rec:conditioning>
+          <rec:aging duration="day">24</rec:aging>
+          <rec:temperature degrees="C">17.0</rec:temperature>
+        </rec:conditioning>
+      </rec:fermentation_stages>
+
+      <rec:taste>
+        <rec:notes>Nice dry Irish stout with a warm body but low starting gravity much like the famous drafts.</rec:notes>
+        <rec:rating>41.0</rec:rating>
+      </rec:taste>
+
+    </recipe>
+  </recipes>
+</beer_xml>

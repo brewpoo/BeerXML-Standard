@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beer_xml xmlns="urn:beerxml:v2" xmlns:ferm="urn:beerxml:fermentable:v2" xmlns:hop="urn:beerxml:hop:v2" xmlns:step="urn:beerxml:mash:step:v2" xmlns:mash="urn:beerxml:mash:v2" xmlns:misc="urn:beerxml:miscellaneous:v2" xmlns:rec="urn:beerxml:recipe:v2" xmlns:style="urn:beerxml:style:v2" xmlns:unit="urn:beerxml:unit:v2" xmlns:water="urn:beerxml:water:v2" xmlns:yeast="urn:beerxml:yeast:v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:beerxml:v2 BeerXML.v2.xsd">
+  <version>2.06</version>
+  <fermentables>
+    <fermentable>
+      <ferm:name>Fustons Hopped Amber</ferm:name>
+      <ferm:type>extract</ferm:type>
+      <ferm:color scale="L">13</ferm:color>
+      <ferm:yield_dry_basis>
+         <ferm:fine_grind>78.0</ferm:fine_grind>
+      </ferm:yield_dry_basis>
+      <ferm:notes>Hopped amber extract suitable as a base for english ales.</ferm:notes>
+      <ferm:ibu_gal_per_lb>16.6</ferm:ibu_gal_per_lb>
+    </fermentable>
+  </fermentables>
+</beer_xml>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beer_xml xmlns="urn:beerxml:v0" xmlns:unit="urn:beerxml:unit:v0" xmlns:ferm="urn:beerxml:fermentable:v0" xmlns:misc="urn:beerxml:miscellaneous:v0" xmlns:hop="urn:beerxml:hop:v0" xmlns:yeast="urn:beerxml:yeast:v0" xmlns:water="urn:beerxml:water:v0" xmlns:style="urn:beerxml:style:v0" xmlns:mash="urn:beerxml:mash:v0" xmlns:rec="urn:beerxml:recipe:v0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:beerxml:v0 BeerXML.xsd">
+  <version>2.05</version>
+  <fermentables>
+    <fermentable>
+      <ferm:name>Pale 2-row Malt</ferm:name>
+      <ferm:type>grain</ferm:type>
+      <ferm:color scale="L">3.0</ferm:color>
+      <ferm:yield_dry_basis>
+         <ferm:fine_grind>73.4</ferm:fine_grind>
+      </ferm:yield_dry_basis>
+    </fermentable>
+  </fermentables>
+</beer_xml>

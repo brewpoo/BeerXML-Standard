@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:unit="urn:beerxml:unit:v0" xmlns:ferm="urn:beerxml:fermentable:v0" xmlns:misc="urn:beerxml:miscellaneous:v0" xmlns:hop="urn:beerxml:hop:v0" xmlns:yeast="urn:beerxml:yeast:v0" xmlns:water="urn:beerxml:water:v0" xmlns:style="urn:beerxml:style:v0" xmlns:mash="urn:beerxml:mash:v0" xmlns:rec="urn:beerxml:recipe:v0" xmlns:base="urn:beerxml:v0" targetNamespace="urn:beerxml:v0" elementFormDefault="qualified" attributeFormDefault="unqualified">
+   
+   <xsd:import namespace="urn:beerxml:unit:v0" schemaLocation="measureable_units.xsd" />
+
+   <xsd:import namespace="urn:beerxml:fermentable:v0" schemaLocation="grain.xsd" />
+   <xsd:import namespace="urn:beerxml:miscellaneous:v0" schemaLocation="misc.xsd" />
+   <xsd:import namespace="urn:beerxml:hop:v0" schemaLocation="hops.xsd" />
+   <xsd:import namespace="urn:beerxml:yeast:v0" schemaLocation="yeast.xsd" />
+   <xsd:import namespace="urn:beerxml:water:v0" schemaLocation="water.xsd" />
+   <xsd:import namespace="urn:beerxml:style:v0" schemaLocation="style.xsd" />
+   <xsd:import namespace="urn:beerxml:mash:v0" schemaLocation="mash.xsd" />
+   <xsd:import namespace="urn:beerxml:recipe:v0" schemaLocation="recipes.xsd" />
+
+   <xsd:annotation><xsd:documentation>
+   ###########################################################
+   # BeerXML files associate a version with the brewing records stored
+   ###########################################################
+   </xsd:documentation></xsd:annotation>
+
+   <xsd:element name="beer_xml">
+      <xsd:complexType>
+         <xsd:sequence>
+            <xsd:element name="version" type="unit:VersionType" />
+
+            <xsd:choice>
+               <xsd:element name="fermentables">
+                  <xsd:complexType>
+                     <xsd:sequence>
+                        <xsd:element name="fermentable" type="ferm:FermentableType" minOccurs="1" maxOccurs="unbounded" />
+                     </xsd:sequence>
+                  </xsd:complexType>
+               </xsd:element>
+
+               <xsd:element name="miscellaneous_ingredients">
+                  <xsd:complexType>
+                     <xsd:sequence>
+                        <xsd:element name="miscellaneous" type="misc:MiscellaneousType" minOccurs="1" maxOccurs="unbounded" />
+                     </xsd:sequence>
+                  </xsd:complexType>
+               </xsd:element>
+
+               <xsd:element name="hop_varieties">
+                  <xsd:complexType>
+                     <xsd:sequence>
+                        <xsd:element name="hop" type="hop:VarietyInformation" minOccurs="1" maxOccurs="unbounded" />
+                     </xsd:sequence>
+                  </xsd:complexType>
+               </xsd:element>
+
+               <xsd:element name="cultures">
+                  <xsd:complexType>
+                     <xsd:sequence>
+                        <xsd:element name="yeast" type="yeast:CultureInformation" minOccurs="1" maxOccurs="unbounded" />
+                     </xsd:sequence>
+                  </xsd:complexType>
+               </xsd:element>
+
+               <xsd:element name="profiles">
+                  <xsd:complexType>
+                     <xsd:sequence>
+                        <xsd:element name="water" type="water:WaterType" minOccurs="1" maxOccurs="unbounded" />
+                     </xsd:sequence>
+                  </xsd:complexType>
+               </xsd:element>
+
+               <xsd:element name="styles">
+                  <xsd:complexType>
+                     <xsd:sequence>
+                        <xsd:element name="style" type="style:StyleType" minOccurs="1" maxOccurs="unbounded" />
+                     </xsd:sequence>
+                  </xsd:complexType>
+               </xsd:element>
+
+               <xsd:element name="procedure">
+                  <xsd:complexType>
+                     <xsd:sequence>
+                        <xsd:element name="mash" type="mash:MashProcedureType" minOccurs="1" maxOccurs="unbounded" />
+                     </xsd:sequence>
+                  </xsd:complexType>
+               </xsd:element>
+
+               <xsd:element name="recipes">
+                  <xsd:complexType>
+                     <xsd:sequence>
+                        <xsd:element name="recipe" type="rec:RecipeType" minOccurs="1" maxOccurs="unbounded" />
+                     </xsd:sequence>
+                  </xsd:complexType>
+               </xsd:element>
+
+           </xsd:choice>
+
+         </xsd:sequence>
+      </xsd:complexType>
+   </xsd:element>
+
+
+
+</xsd:schema>

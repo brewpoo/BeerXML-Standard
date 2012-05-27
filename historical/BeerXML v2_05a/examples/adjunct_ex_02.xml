@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beer_xml xmlns="urn:beerxml:v0" xmlns:unit="urn:beerxml:unit:v0" xmlns:ferm="urn:beerxml:fermentable:v0" xmlns:misc="urn:beerxml:miscellaneous:v0" xmlns:hop="urn:beerxml:hop:v0" xmlns:yeast="urn:beerxml:yeast:v0" xmlns:water="urn:beerxml:water:v0" xmlns:style="urn:beerxml:style:v0" xmlns:mash="urn:beerxml:mash:v0" xmlns:rec="urn:beerxml:recipe:v0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:beerxml:v0 BeerXML.xsd">
+  <version>2.05</version>
+  <miscellaneous_ingredients>
+    <miscellaneous>
+      <misc:name>Coriander</misc:name>
+      <misc:type>spice</misc:type>
+      <misc:use>boil</misc:use>
+      <misc:use_for>Belgian Wit Spice</misc:use_for>
+      <misc:notes>Used in Belgian Wit, Whites, and Holiday ales.  Very good when used in light wheat ales.  Often used with Bitter Orange Peel. Crack open seeds and add at the end of the boil to extract aroma and flavor.</misc:notes>
+    </miscellaneous>
+  </miscellaneous_ingredients>
+</beer_xml>

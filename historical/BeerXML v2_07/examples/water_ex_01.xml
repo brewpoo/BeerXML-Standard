@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beer_xml xmlns="urn:beerxml:v2" xmlns:ferm="urn:beerxml:fermentable:v2" xmlns:hop="urn:beerxml:hop:v2" xmlns:step="urn:beerxml:mash:step:v2" xmlns:mash="urn:beerxml:mash:v2" xmlns:misc="urn:beerxml:miscellaneous:v2" xmlns:rec="urn:beerxml:recipe:v2" xmlns:style="urn:beerxml:style:v2" xmlns:unit="urn:beerxml:unit:v2" xmlns:water="urn:beerxml:water:v2" xmlns:yeast="urn:beerxml:yeast:v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:beerxml:v2 BeerXML.v2.xsd">
+  <version>2.06</version>
+  <profiles>
+    <water>
+      <water:name>Burton on Trent, UK</water:name>
+      <water:calcium>295.0</water:calcium>
+      <water:bicarbonate>300.0</water:bicarbonate>
+      <water:sulfate>725.0</water:sulfate>
+      <water:chloride>25.0</water:chloride>
+      <water:sodium>55.0</water:sodium>
+      <water:magnesium>45.0</water:magnesium>
+      <water:pH>8.0</water:pH>
+      <water:notes>Use for distinctive pale ales strongly hopped.  Very hard water accentuates the hops flavor. Example: Bass Ale</water:notes>
+    </water>
+  </profiles>
+</beer_xml>

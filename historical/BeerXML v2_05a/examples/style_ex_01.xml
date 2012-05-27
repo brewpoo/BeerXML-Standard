@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beer_xml xmlns="urn:beerxml:v0" xmlns:unit="urn:beerxml:unit:v0" xmlns:ferm="urn:beerxml:fermentable:v0" xmlns:misc="urn:beerxml:miscellaneous:v0" xmlns:hop="urn:beerxml:hop:v0" xmlns:yeast="urn:beerxml:yeast:v0" xmlns:water="urn:beerxml:water:v0" xmlns:style="urn:beerxml:style:v0" xmlns:mash="urn:beerxml:mash:v0" xmlns:rec="urn:beerxml:recipe:v0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:beerxml:v0 BeerXML.xsd">
+  <version>2.05</version>
+  <styles>
+    <style>
+      <style:name>Bohemian Pilsner</style:name>
+      <style:category>European Pale Ale</style:category>
+      <style:category_number>2</style:category_number>
+      <style:style_letter>A</style:style_letter>
+      <style:style_guide>BJCP</style:style_guide>
+      <style:type>lager</style:type>
+      <style:original_gravity>
+        <unit:minimum density="sg">1.044</unit:minimum>
+        <unit:maximum density="sg">1.056</unit:maximum>
+      </style:original_gravity>
+      <style:final_gravity>
+        <unit:minimum density="sg">1.013</unit:minimum>
+        <unit:maximum density="sg">1.017</unit:maximum>
+      </style:final_gravity>
+      <style:international_bitterness_units>
+        <unit:minimum>35.0</unit:minimum>
+        <unit:maximum>45.0</unit:maximum>
+      </style:international_bitterness_units>
+      <style:color>
+        <unit:minimum scale="SRM">3.0</unit:minimum>
+        <unit:maximum scale="SRM">5.0</unit:maximum>
+      </style:color>
+      <style:notes>Famous beer of Pilsen, Czech republic.  Light to medium body with some sweetness.  Saaz hop flavor and aroma with no lingering bitterness.</style:notes>
+    </style>
+  </styles>
+</beer_xml>

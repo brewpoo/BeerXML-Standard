@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base:beer_xml xmlns:unit="urn:beerxml:unit:v2"
+ xmlns:ferm="urn:beerxml:fermentable:v2"
+ xmlns:misc="urn:beerxml:miscellaneous:v2"
+ xmlns:hop="urn:beerxml:hop:v2"
+ xmlns:yeast="urn:beerxml:yeast:v2"
+ xmlns:water="urn:beerxml:water:v2"
+ xmlns:style="urn:beerxml:style:v2"
+ xmlns:mash="urn:beerxml:mash:v2"
+ xmlns:rec="urn:beerxml:recipe:v2"
+ xmlns:step="urn:beerxml:mash:step:v2"
+ xmlns:base="urn:beerxml:v2"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="urn:beerxml:v2 file:/Users/jlochner/Downloads/BeerXML%20v2_07/BeerXML.v2.xsd">
+    <base:version>0</base:version>
+    <base:cultures>
+        <base:yeast>
+            <yeast:name>name0</yeast:name>
+            <yeast:type>ale</yeast:type>
+            <yeast:form>liquid</yeast:form>
+            <yeast:laboratory>laboratory0</yeast:laboratory>
+            <yeast:product_id>product_id0</yeast:product_id>
+        </base:yeast>
+        <base:yeast>
+            <yeast:name>name1</yeast:name>
+            <yeast:type>ale</yeast:type>
+            <yeast:form>liquid</yeast:form>
+            <yeast:laboratory>laboratory1</yeast:laboratory>
+            <yeast:product_id>product_id1</yeast:product_id>
+        </base:yeast>
+    </base:cultures>
+</base:beer_xml>
