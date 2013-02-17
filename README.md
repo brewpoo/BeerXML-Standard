@@ -1,4 +1,4 @@
 BeerXML-Standard
 ================
 
-XML Schema definitions and examples for the BeerXML S tandard
+XML Schema definitions and examples for the BeerXML Standard
