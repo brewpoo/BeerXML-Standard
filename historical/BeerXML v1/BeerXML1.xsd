@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+         <!-- XML Schema Generated from XML Document on Wed Oct 23 2013 12:00:10 GMT-0400 (EDT) -->
+         <!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+         <xs:element name="RECIPES">
+               <xs:complexType>
+                     <xs:sequence>
+                           <xs:element name="RECIPE" maxOccurs="unbounded">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="NAME" type="xs:string"></xs:element>
+                                             <xs:element name="VERSION" type="xs:int"></xs:element>
+                                             <xs:element name="TYPE" type="xs:string"></xs:element>
+                                             <xs:element name="BREWER" type="xs:string"></xs:element>
+                                             <xs:element name="ASST_BREWER"></xs:element>
+                                             <xs:element name="BATCH_SIZE" type="xs:double"></xs:element>
+                                             <xs:element name="BOIL_SIZE" type="xs:double"></xs:element>
+                                             <xs:element name="BOIL_TIME" type="xs:int"></xs:element>
+                                             <xs:element name="EFFICIENCY" type="xs:int"></xs:element>
+                                             <xs:element name="HOPS">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="HOP" maxOccurs="unbounded">
+                                                                     <xs:complexType>
+                                                                           <xs:sequence>
+                                                                                 <xs:element name="NAME" type="xs:string"></xs:element>
+                                                                                 <xs:element name="VERSION" type="xs:int"></xs:element>
+                                                                                 <xs:element name="ORIGIN" type="xs:string"></xs:element>
+                                                                                 <xs:element name="ALPHA" type="xs:double"></xs:element>
+                                                                                 <xs:element name="AMOUNT" type="xs:double"></xs:element>
+                                                                                 <xs:element name="USE" type="xs:string"></xs:element>
+                                                                                 <xs:element name="TIME" type="xs:int"></xs:element>
+                                                                                 <xs:element name="NOTES" type="xs:string"></xs:element>
+                                                                                 <xs:element name="TYPE" type="xs:string"></xs:element>
+                                                                                 <xs:element name="FORM" type="xs:string"></xs:element>
+                                                                                 <xs:element name="BETA" type="xs:double"></xs:element>
+                                                                                 <xs:element name="HSI" type="xs:int"></xs:element>
+                                                                                 <xs:element name="DISPLAY_AMOUNT" type="xs:string"></xs:element>
+                                                                                 <xs:element name="INVENTORY" type="xs:string"></xs:element>
+                                                                                 <xs:element name="DISPLAY_TIME" type="xs:string"></xs:element>
+                                                                           </xs:sequence>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="FERMENTABLES">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="FERMENTABLE" maxOccurs="unbounded">
+                                                                     <xs:complexType>
+                                                                           <xs:sequence>
+                                                                                 <xs:element name="NAME" type="xs:string"></xs:element>
+                                                                                 <xs:element name="VERSION" type="xs:int"></xs:element>
+                                                                                 <xs:element name="TYPE" type="xs:string"></xs:element>
+                                                                                 <xs:element name="AMOUNT" type="xs:double"></xs:element>
+                                                                                 <xs:element name="YIELD" type="xs:int"></xs:element>
+                                                                                 <xs:element name="COLOR" type="xs:double"></xs:element>
+                                                                                 <xs:element name="ADD_AFTER_BOIL" type="xs:string"></xs:element>
+                                                                                 <xs:element name="ORIGIN" type="xs:string"></xs:element>
+                                                                                 <xs:element name="SUPPLIER"></xs:element>
+                                                                                 <xs:element name="NOTES" type="xs:string"></xs:element>
+                                                                                 <xs:element name="COARSE_FINE_DIFF" type="xs:double"></xs:element>
+                                                                                 <xs:element name="MOISTURE" type="xs:int"></xs:element>
+                                                                                 <xs:element name="DIASTATIC_POWER" type="xs:int"></xs:element>
+                                                                                 <xs:element name="PROTEIN" type="xs:double"></xs:element>
+                                                                                 <xs:element name="MAX_IN_BATCH" type="xs:int"></xs:element>
+                                                                                 <xs:element name="RECOMMEND_MASH" type="xs:string"></xs:element>
+                                                                                 <xs:element name="IBU_GAL_PER_LB" type="xs:int"></xs:element>
+                                                                                 <xs:element name="DISPLAY_AMOUNT" type="xs:string"></xs:element>
+                                                                                 <xs:element name="INVENTORY" type="xs:string"></xs:element>
+                                                                                 <xs:element name="POTENTIAL" type="xs:double"></xs:element>
+                                                                                 <xs:element name="DISPLAY_COLOR" type="xs:string"></xs:element>
+                                                                           </xs:sequence>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="MISCS">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="MISC" maxOccurs="unbounded">
+                                                                     <xs:complexType>
+                                                                           <xs:sequence>
+                                                                                 <xs:element name="NAME" type="xs:string"></xs:element>
+                                                                                 <xs:element name="VERSION" type="xs:int"></xs:element>
+                                                                                 <xs:element name="TYPE" type="xs:string"></xs:element>
+                                                                                 <xs:element name="USE" type="xs:string"></xs:element>
+                                                                                 <xs:element name="AMOUNT" type="xs:double"></xs:element>
+                                                                                 <xs:element name="TIME" type="xs:int"></xs:element>
+                                                                                 <xs:element name="AMOUNT_IS_WEIGHT" type="xs:string"></xs:element>
+                                                                                 <xs:element name="USE_FOR" type="xs:string"></xs:element>
+                                                                                 <xs:element name="NOTES" type="xs:string"></xs:element>
+                                                                                 <xs:element name="DISPLAY_AMOUNT" type="xs:string"></xs:element>
+                                                                                 <xs:element name="INVENTORY" type="xs:string"></xs:element>
+                                                                                 <xs:element name="DISPLAY_TIME" type="xs:string"></xs:element>
+                                                                                 <xs:element name="BATCH_SIZE" type="xs:string"></xs:element>
+                                                                           </xs:sequence>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="YEASTS">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="YEAST">
+                                                                     <xs:complexType>
+                                                                           <xs:sequence>
+                                                                                 <xs:element name="NAME" type="xs:string"></xs:element>
+                                                                                 <xs:element name="VERSION" type="xs:int"></xs:element>
+                                                                                 <xs:element name="TYPE" type="xs:string"></xs:element>
+                                                                                 <xs:element name="FORM" type="xs:string"></xs:element>
+                                                                                 <xs:element name="AMOUNT" type="xs:double"></xs:element>
+                                                                                 <xs:element name="AMOUNT_IS_WEIGHT" type="xs:string"></xs:element>
+                                                                                 <xs:element name="LABORATORY" type="xs:string"></xs:element>
+                                                                                 <xs:element name="PRODUCT_ID" type="xs:string"></xs:element>
+                                                                                 <xs:element name="MIN_TEMPERATURE" type="xs:int"></xs:element>
+                                                                                 <xs:element name="MAX_TEMPERATURE" type="xs:double"></xs:element>
+                                                                                 <xs:element name="FLOCCULATION" type="xs:string"></xs:element>
+                                                                                 <xs:element name="ATTENUATION" type="xs:int"></xs:element>
+                                                                                 <xs:element name="NOTES" type="xs:string"></xs:element>
+                                                                                 <xs:element name="BEST_FOR" type="xs:string"></xs:element>
+                                                                                 <xs:element name="MAX_REUSE" type="xs:int"></xs:element>
+                                                                                 <xs:element name="TIMES_CULTURED" type="xs:int"></xs:element>
+                                                                                 <xs:element name="ADD_TO_SECONDARY" type="xs:string"></xs:element>
+                                                                                 <xs:element name="DISPLAY_AMOUNT" type="xs:string"></xs:element>
+                                                                                 <xs:element name="DISP_MIN_TEMP" type="xs:string"></xs:element>
+                                                                                 <xs:element name="DISP_MAX_TEMP" type="xs:string"></xs:element>
+                                                                                 <xs:element name="INVENTORY" type="xs:string"></xs:element>
+                                                                                 <xs:element name="CULTURE_DATE" type="xs:string"></xs:element>
+                                                                           </xs:sequence>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="WATERS">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="WATER">
+                                                                     <xs:complexType>
+                                                                           <xs:sequence>
+                                                                                 <xs:element name="NAME" type="xs:string"></xs:element>
+                                                                                 <xs:element name="VERSION" type="xs:int"></xs:element>
+                                                                                 <xs:element name="AMOUNT" type="xs:double"></xs:element>
+                                                                                 <xs:element name="CALCIUM" type="xs:int"></xs:element>
+                                                                                 <xs:element name="BICARBONATE" type="xs:int"></xs:element>
+                                                                                 <xs:element name="SULFATE" type="xs:int"></xs:element>
+                                                                                 <xs:element name="CHLORIDE" type="xs:int"></xs:element>
+                                                                                 <xs:element name="SODIUM" type="xs:int"></xs:element>
+                                                                                 <xs:element name="MAGNESIUM" type="xs:int"></xs:element>
+                                                                                 <xs:element name="PH" type="xs:int"></xs:element>
+                                                                                 <xs:element name="NOTES" type="xs:string"></xs:element>
+                                                                                 <xs:element name="DISPLAY_AMOUNT" type="xs:string"></xs:element>
+                                                                           </xs:sequence>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="STYLE">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="NAME" type="xs:string"></xs:element>
+                                                               <xs:element name="VERSION" type="xs:int"></xs:element>
+                                                               <xs:element name="CATEGORY" type="xs:string"></xs:element>
+                                                               <xs:element name="CATEGORY_NUMBER" type="xs:int"></xs:element>
+                                                               <xs:element name="STYLE_LETTER" type="xs:string"></xs:element>
+                                                               <xs:element name="STYLE_GUIDE" type="xs:string"></xs:element>
+                                                               <xs:element name="TYPE" type="xs:string"></xs:element>
+                                                               <xs:element name="OG_MIN" type="xs:double"></xs:element>
+                                                               <xs:element name="OG_MAX" type="xs:double"></xs:element>
+                                                               <xs:element name="FG_MIN" type="xs:double"></xs:element>
+                                                               <xs:element name="FG_MAX" type="xs:double"></xs:element>
+                                                               <xs:element name="IBU_MIN" type="xs:int"></xs:element>
+                                                               <xs:element name="IBU_MAX" type="xs:int"></xs:element>
+                                                               <xs:element name="COLOR_MIN" type="xs:int"></xs:element>
+                                                               <xs:element name="COLOR_MAX" type="xs:int"></xs:element>
+                                                               <xs:element name="CARB_MIN" type="xs:double"></xs:element>
+                                                               <xs:element name="CARB_MAX" type="xs:double"></xs:element>
+                                                               <xs:element name="ABV_MAX" type="xs:double"></xs:element>
+                                                               <xs:element name="ABV_MIN" type="xs:double"></xs:element>
+                                                               <xs:element name="NOTES" type="xs:string"></xs:element>
+                                                               <xs:element name="PROFILE" type="xs:string"></xs:element>
+                                                               <xs:element name="INGREDIENTS" type="xs:string"></xs:element>
+                                                               <xs:element name="EXAMPLES" type="xs:string"></xs:element>
+                                                               <xs:element name="DISPLAY_OG_MIN" type="xs:string"></xs:element>
+                                                               <xs:element name="DISPLAY_OG_MAX" type="xs:string"></xs:element>
+                                                               <xs:element name="DISPLAY_FG_MIN" type="xs:string"></xs:element>
+                                                               <xs:element name="DISPLAY_FG_MAX" type="xs:string"></xs:element>
+                                                               <xs:element name="DISPLAY_COLOR_MIN" type="xs:string"></xs:element>
+                                                               <xs:element name="DISPLAY_COLOR_MAX" type="xs:string"></xs:element>
+                                                               <xs:element name="OG_RANGE" type="xs:string"></xs:element>
+                                                               <xs:element name="FG_RANGE" type="xs:string"></xs:element>
+                                                               <xs:element name="IBU_RANGE" type="xs:string"></xs:element>
+                                                               <xs:element name="CARB_RANGE" type="xs:string"></xs:element>
+                                                               <xs:element name="COLOR_RANGE" type="xs:string"></xs:element>
+                                                               <xs:element name="ABV_RANGE" type="xs:string"></xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="EQUIPMENT">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="NAME" type="xs:string"></xs:element>
+                                                               <xs:element name="VERSION" type="xs:int"></xs:element>
+                                                               <xs:element name="BOIL_SIZE" type="xs:double"></xs:element>
+                                                               <xs:element name="BATCH_SIZE" type="xs:double"></xs:element>
+                                                               <xs:element name="TUN_VOLUME" type="xs:double"></xs:element>
+                                                               <xs:element name="TUN_WEIGHT" type="xs:double"></xs:element>
+                                                               <xs:element name="TUN_SPECIFIC_HEAT" type="xs:double"></xs:element>
+                                                               <xs:element name="TOP_UP_WATER" type="xs:int"></xs:element>
+                                                               <xs:element name="TRUB_CHILLER_LOSS" type="xs:double"></xs:element>
+                                                               <xs:element name="EVAP_RATE" type="xs:int"></xs:element>
+                                                               <xs:element name="BOIL_TIME" type="xs:int"></xs:element>
+                                                               <xs:element name="CALC_BOIL_VOLUME" type="xs:string"></xs:element>
+                                                               <xs:element name="LAUTER_DEADSPACE" type="xs:double"></xs:element>
+                                                               <xs:element name="TOP_UP_KETTLE" type="xs:int"></xs:element>
+                                                               <xs:element name="HOP_UTILIZATION" type="xs:int"></xs:element>
+                                                               <xs:element name="NOTES" type="xs:string"></xs:element>
+                                                               <xs:element name="DISPLAY_BOIL_SIZE" type="xs:string"></xs:element>
+                                                               <xs:element name="DISPLAY_BATCH_SIZE" type="xs:string"></xs:element>
+                                                               <xs:element name="DISPLAY_TUN_VOLUME" type="xs:string"></xs:element>
+                                                               <xs:element name="DISPLAY_TUN_WEIGHT" type="xs:string"></xs:element>
+                                                               <xs:element name="DISPLAY_TOP_UP_WATER" type="xs:string"></xs:element>
+                                                               <xs:element name="DISPLAY_TRUB_CHILLER_LOSS" type="xs:string"></xs:element>
+                                                               <xs:element name="DISPLAY_LAUTER_DEADSPACE" type="xs:string"></xs:element>
+                                                               <xs:element name="DISPLAY_TOP_UP_KETTLE" type="xs:string"></xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="MASH">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="NAME" type="xs:string"></xs:element>
+                                                               <xs:element name="VERSION" type="xs:int"></xs:element>
+                                                               <xs:element name="GRAIN_TEMP" type="xs:double"></xs:element>
+                                                               <xs:element name="TUN_TEMP" type="xs:double"></xs:element>
+                                                               <xs:element name="SPARGE_TEMP" type="xs:double"></xs:element>
+                                                               <xs:element name="PH" type="xs:double"></xs:element>
+                                                               <xs:element name="TUN_WEIGHT" type="xs:double"></xs:element>
+                                                               <xs:element name="TUN_SPECIFIC_HEAT" type="xs:double"></xs:element>
+                                                               <xs:element name="EQUIP_ADJUST" type="xs:string"></xs:element>
+                                                               <xs:element name="NOTES"></xs:element>
+                                                               <xs:element name="DISPLAY_GRAIN_TEMP" type="xs:string"></xs:element>
+                                                               <xs:element name="DISPLAY_TUN_TEMP" type="xs:int"></xs:element>
+                                                               <xs:element name="DISPLAY_SPARGE_TEMP" type="xs:string"></xs:element>
+                                                               <xs:element name="DISPLAY_TUN_WEIGHT" type="xs:string"></xs:element>
+                                                               <xs:element name="MASH_STEPS">
+                                                                     <xs:complexType>
+                                                                           <xs:sequence>
+                                                                                 <xs:element name="MASH_STEP" maxOccurs="unbounded">
+                                                                                       <xs:complexType>
+                                                                                             <xs:sequence>
+                                                                                                   <xs:element name="NAME" type="xs:string"></xs:element>
+                                                                                                   <xs:element name="VERSION" type="xs:int"></xs:element>
+                                                                                                   <xs:element name="TYPE" type="xs:string"></xs:element>
+                                                                                                   <xs:element name="INFUSE_AMOUNT" type="xs:double"></xs:element>
+                                                                                                   <xs:element name="STEP_TIME" type="xs:int"></xs:element>
+                                                                                                   <xs:element name="STEP_TEMP" type="xs:int"></xs:element>
+                                                                                                   <xs:element name="RAMP_TIME" type="xs:int"></xs:element>
+                                                                                                   <xs:element name="END_TEMP" type="xs:int"></xs:element>
+                                                                                                   <xs:element name="DESCRIPTION" type="xs:string"></xs:element>
+                                                                                                   <xs:element name="WATER_GRAIN_RATIO" type="xs:double"></xs:element>
+                                                                                                   <xs:element name="DECOCTION_AMT" type="xs:string"></xs:element>
+                                                                                                   <xs:element name="INFUSE_TEMP" type="xs:string"></xs:element>
+                                                                                                   <xs:element name="DISPLAY_STEP_TEMP" type="xs:string"></xs:element>
+                                                                                                   <xs:element name="DISPLAY_INFUSE_AMT" type="xs:string"></xs:element>
+                                                                                             </xs:sequence>
+                                                                                       </xs:complexType>
+                                                                                 </xs:element>
+                                                                           </xs:sequence>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="NOTES"></xs:element>
+                                             <xs:element name="TASTE_NOTES" type="xs:string"></xs:element>
+                                             <xs:element name="TASTE_RATING" type="xs:int"></xs:element>
+                                             <xs:element name="OG" type="xs:double"></xs:element>
+                                             <xs:element name="FG" type="xs:double"></xs:element>
+                                             <xs:element name="CARBONATION" type="xs:double"></xs:element>
+                                             <xs:element name="FERMENTATION_STAGES" type="xs:int"></xs:element>
+                                             <xs:element name="PRIMARY_AGE" type="xs:int"></xs:element>
+                                             <xs:element name="PRIMARY_TEMP" type="xs:int"></xs:element>
+                                             <xs:element name="SECONDARY_AGE" type="xs:int"></xs:element>
+                                             <xs:element name="SECONDARY_TEMP" type="xs:int"></xs:element>
+                                             <xs:element name="TERTIARY_AGE" type="xs:int"></xs:element>
+                                             <xs:element name="AGE" type="xs:int"></xs:element>
+                                             <xs:element name="AGE_TEMP" type="xs:double"></xs:element>
+                                             <xs:element name="CARBONATION_USED" type="xs:string"></xs:element>
+                                             <xs:element name="DATE" type="xs:string"></xs:element>
+                                             <xs:element name="EST_OG" type="xs:string"></xs:element>
+                                             <xs:element name="EST_FG" type="xs:string"></xs:element>
+                                             <xs:element name="EST_COLOR" type="xs:string"></xs:element>
+                                             <xs:element name="IBU" type="xs:string"></xs:element>
+                                             <xs:element name="IBU_METHOD" type="xs:string"></xs:element>
+                                             <xs:element name="EST_ABV" type="xs:string"></xs:element>
+                                             <xs:element name="ABV" type="xs:string"></xs:element>
+                                             <xs:element name="ACTUAL_EFFICIENCY" type="xs:string"></xs:element>
+                                             <xs:element name="CALORIES" type="xs:string"></xs:element>
+                                             <xs:element name="DISPLAY_BATCH_SIZE" type="xs:string"></xs:element>
+                                             <xs:element name="DISPLAY_BOIL_SIZE" type="xs:string"></xs:element>
+                                             <xs:element name="DISPLAY_OG" type="xs:string"></xs:element>
+                                             <xs:element name="DISPLAY_FG" type="xs:string"></xs:element>
+                                             <xs:element name="DISPLAY_PRIMARY_TEMP" type="xs:string"></xs:element>
+                                             <xs:element name="DISPLAY_SECONDARY_TEMP" type="xs:string"></xs:element>
+                                             <xs:element name="DISPLAY_TERTIARY_TEMP" type="xs:string"></xs:element>
+                                             <xs:element name="DISPLAY_AGE_TEMP" type="xs:string"></xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                     </xs:sequence>
+               </xs:complexType>
+         </xs:element>
+   </xs:schema>
+ 
