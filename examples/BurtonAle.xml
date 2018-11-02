@@ -4,7 +4,9 @@
           xmlns:hop="urn:beerxml:hop:v2"
           xmlns:ferm="urn:beerxml:fermentable:v2"
           xmlns:misc="urn:beerxml:miscellaneous:v2"
-          xmlns:yeast="urn:beerxml:yeast:v2">
+          xmlns:yeast="urn:beerxml:yeast:v2"
+          xmlns:water="urn:beerxml:water:v2"
+          xmlns:style="urn:beerxml:style:v2">
   <version>2.06</version>
   <recipes>
     <recipe>
@@ -239,31 +241,70 @@
         </yeast:yeast>
       </rec:yeasts>
       <rec:waters>
-        <water>
-          <name>Burton On Trent, UK</name>
-          <version>1</version>
-          <amount>18.927168</amount>
-          <calcium>295.0</calcium>
-          <bicarbonate>300.0</bicarbonate>
-          <sulfate>725.0</sulfate>
-          <chloride>25.0</chloride>
-          <sodium>55.0</sodium>
-          <magnesium>45.0</magnesium>
-          <ph>8.0</ph>
-          <notes>
+        <water:water>
+          <water:name>Burton On Trent, UK</water:name>
+          <water:version>1</water:version>
+          <awater:mount>18.927168</water:amount>
+          <water:calcium>295.0</water:calcium>
+          <water:bicarbonate>300.0</water:bicarbonate>
+          <water:sulfate>725.0</water:sulfate>
+          <cwater:hloride>25.0</water:chloride>
+          <water:sodium>55.0</water:sodium>
+          <water:magnesium>45.0</water:magnesium>
+          <water:ph>8.0</water:ph>
+          <water:notes>
             Distinctive pale ales strongly hopped. Very hard water accentuates the hops flavor. Example: Bass Ale
-          </notes>
-          <display_amount>5.00 gal</display_amount>
-        </water>
+          </water:notes>
+          <water:display_amount>5.00 gal</water:display_amount>
+        </water:water>
       </rec:waters>
       <rec:style>
-        <name>English Pale Ale</name> <version>1</version> <category>Bitter & English Pale Ale</category> <category_number>1</category_number> <style_letter>A</style_letter> <style_guide>BJCP 1999</style_guide> <type>Ale</type> <og_min>1.04300000</og_min> <og_max>1.06000000</og_max> <fg_min>1.01000000</fg_min> <fg_max>1.02000000</fg_max> <ibu_min>20.0</ibu_min> <ibu_max>40.0</ibu_max> <color_min>6.00000000</color_min> <color_max>12.00000000</color_max> <carb_min>1.5</carb_min> <carb_max>2.4></carb_max> <abv_max>5.5</abv_max> <abv_min>4.5</abv_min> <notes> Famous style from Burton-on-Trent. Stronger body than ordinary bitter,
+        <name>English Pale Ale</name>
+        <version>1</version>
+        <category>Bitter & English Pale Ale</category>
+        <category_number>1</category_number>
+        <style_letter>A</style_letter>
+        <style_guide>BJCP 1999</style_guide>
+        <type>Ale</type>
+        <og_min>1.04300000</og_min>
+        <og_max>1.06000000</og_max>
+        <fg_min>1.01000000</fg_min>
+        <fg_max>1.02000000</fg_max>
+        <ibu_min>20.0</ibu_min>
+        <ibu_max>40.0</ibu_max>
+        <color_min>6.00000000</color_min>
+        <color_max>12.00000000</color_max>
+        <carb_min>1.5</carb_min>
+        <carb_max>2.4></carb_max>
+        <abv_max>5.5</abv_max>
+        <abv_min>4.5</abv_min>
+        <notes>
+          Famous style from Burton-on-Trent. Stronger body than ordinary bitter,
         but slightly less bitter. A balanced,
-        easy drinking beer that is malty and strong but not overbearing. </notes> <profile> Medium to full body,
+        easy drinking beer that is malty and strong but not overbearing.
+        </notes>
+        <profile>
+          Medium to full body,
         with medium to high bitterness and hop aroma. Dry with a defined hop flavor. Golden to copper color. Crystal malt evident. Low carbonation for kegs,
-        medium for bottled version. </profile> <ingredients> English malt. Crystal malt. English hops. Water with high Calcium Sulfate (gypsum) profile enhances bitterness perception (i.e. famous Burton-on-Trent Water) </ingredients> <examples>Bass Pale Ale,
-        Whitbread Pale Ale,
-        Royal Oak</examples> <display_og_min>1.043 SG</display_og_min> <display_og_max>1.060 SG</display_og_max> <display_fg_min>1.010 SG</display_fg_min> <display_fg_max>1.020 SG</display_fg_max> <display_color_min>6.0 SRM</display_color_min> <display_color_max>12.0 SRM</display_color_max> <og_range>1.043-1.060 SG</og_range> <fg_range>1.010-1.020 SG</fg_range> <ibu_range>20.0-40.0 IBU</ibu_range> <carb_range>1.5-2.4 vols</carb_range> <color_range>6.0-12.0 SRM</color_range> <abv_range>4.5-5.5 %</abv_range>
+        medium for bottled version.
+        </profile>
+        <ingredients>
+          English malt. Crystal malt. English hops. Water with high Calcium Sulfate (gypsum) profile enhances bitterness perception (i.e. famous Burton-on-Trent Water)
+        </ingredients>
+        <examples>Bass Pale Ale,Whitbread Pale Ale,Royal Oak
+        </examples>
+        <display_og_min>1.043 SG</display_og_min>
+        <display_og_max>1.060 SG</display_og_max>
+        <display_fg_min>1.010 SG</display_fg_min>
+        <display_fg_max>1.020 SG</display_fg_max>
+        <display_color_min>6.0 SRM</display_color_min>
+        <display_color_max>12.0 SRM</display_color_max>
+        <og_range>1.043-1.060 SG</og_range>
+        <fg_range>1.010-1.020 SG</fg_range>
+        <ibu_range>20.0-40.0 IBU</ibu_range>
+        <carb_range>1.5-2.4 vols</carb_range>
+        <color_range>6.0-12.0 SRM</color_range>
+        <abv_range>4.5-5.5 %</abv_range>
       </rec:style>
       <rec:equipment>
         <name>Brew Pot (6+gal) and Igloo/Gott Cooler (5 Gal)</name>
