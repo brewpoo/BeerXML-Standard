@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <beer_xml xmlns="urn:beerxml:v2"
-          xmlns:rec="urn:beerxml:recipe:v2">
+          xmlns:rec="urn:beerxml:recipe:v2"
+          xmlns:hop="urn:beerxml:hop:v2">
   <version>2.06</version>
   <recipes>
     <recipe>
@@ -14,82 +15,82 @@
       <rec:boil_time>60</rec:boil_time>
       <rec:efficiency>72.0</rec:efficiency>
       <rec:hops>
-        <hop>
-          <name>Goldings, East Kent</name>
-          <version>1</version>
-          <origin>United Kingdom</origin>
-          <alpha>5.50</alpha>
-          <amount>0.0283500</amount>
-          <use>Boil</use>
-          <time>60.000</time>
-          <notes>
+        <hop:hop>
+          <hop:name>Goldings, East Kent</hop:name>
+          <hop:version>1</hop:version>
+          <hop:origin>United Kingdom</hop:origin>
+          <hop:alpha>5.50</hop:alpha>
+          <hop:amount>0.0283500</hop:amount>
+          <hop:use>Boil</hop:use>
+          <hop:time>60.000</hop:time>
+          <hop:notes>
             Used For: General purpose hops for bittering/finishing all British Ales Aroma: Floral, aromatic, earthy, slightly sweet spicy flavor Substitutes: Fuggles, BC Goldings Examples: Bass Pale Ale, Fullers ESB, Samual Smith's Pale Ale
-          </notes>
-          <type>Aroma</type>
-          <form>Pellet</form>
-          <beta>3.50</beta>
-          <hsi>35.0</hsi>
-          <display_amount>1.00 oz</display_amount>
-          <inventory>1.00 oz</inventory>
-          <display_time>60 min</display_time>
-        </hop>
-        <hop>
-          <name>Northern Brewer</name>
-          <version>1</version>
-          <origin>Germany</origin>
-          <alpha>7.50</alpha>
-          <amount>0.0141750</amount>
-          <use>Boil</use>
-          <time>60.000</time>
-          <notes>
+          </hop:notes>
+          <hop:type>Aroma</hop:type>
+          <hop:form>Pellet</hop:form>
+          <hop:beta>3.50</hop:beta>
+          <hop:hsi>35.0</hop:hsi>
+          <hop:display_amount>1.00 oz</hop:display_amount>
+          <hop:inventory>1.00 oz</hop:inventory>
+          <hop:display_time>60 min</hop:display_time>
+        </hop:hop>
+        <hop:hop>
+          <hop:name>Northern Brewer</hop:name>
+          <hop:version>1</hop:version>
+          <hop:origin>Germany</hop:origin>
+          <hop:alpha>7.50</hop:alpha>
+          <hop:amount>0.0141750</hop:amount>
+          <hop:use>Boil</hop:use>
+          <hop:time>60.000</hop:time>
+          <hop:notes>
             Also called Hallertauer Northern Brewers Use for: Bittering and finishing both ales and lagers of all kinds Aroma: Fine, dry, clean bittering hop. Unique flavor. Substitute: Hallertauer Mittelfrueh, Hallertauer Examples: Anchor Steam, Old Peculiar,
-          </notes>
-          <type>Both</type>
-          <form>Pellet</form>
-          <beta>4.00</beta>
-          <hsi>35.0</hsi>
-          <display_amount>0.50 oz</display_amount>
-          <inventory>0.50 oz</inventory>
-          <display_time>60 min</display_time>
-        </hop>
-        <hop>
-          <name>Fuggles</name>
-          <version>1</version>
-          <origin>United Kingdom</origin>
-          <alpha>5.00</alpha>
-          <amount>0.0141750</amount>
-          <use>Boil</use>
-          <time>2.000</time>
-          <notes>
+          </hop:notes>
+          <hop:type>Both</hop:type>
+          <hop:form>Pellet</hop:form>
+          <hop:beta>4.00</hop:beta>
+          <hop:hsi>35.0</hop:hsi>
+          <hop:display_amount>0.50 oz</hop:display_amount>
+          <hop:inventory>0.50 oz</hop:inventory>
+          <hop:display_time>60 min</hop:display_time>
+        </hop:hop>
+        <hop:hop>
+          <hop:name>Fuggles</hop:name>
+          <hop:version>1</hop:version>
+          <hop:origin>United Kingdom</hop:origin>
+          <hop:alpha>5.00</hop:alpha>
+          <hop:amount>0.0141750</hop:amount>
+          <hop:use>Boil</hop:use>
+          <hop:time>2.000</hop:time>
+          <hop:notes>
             Used For: General purpose bittering/aroma for English Ales, Dark Lagers Aroma: Mild, soft, grassy, floral aroma Substitute: East Kent Goldings, Williamette Examples: Samuel Smith's Pale Ale, Old Peculiar, Thomas Hardy's Ale
-          </notes>
-          <type>Aroma</type>
-          <form>Pellet</form>
-          <beta>2.00</beta>
-          <hsi>35.0</hsi>
-          <display_amount>0.50 oz</display_amount>
-          <inventory>0.50 oz</inventory>
-          <display_time>2 min</display_time>
-        </hop>
-        <hop>
-          <name>Fuggles</name>
-          <version>1</version>
-          <origin>United Kingdom</origin>
-          <alpha>4.50</alpha>
-          <amount>0.0212620</amount>
-          <use>Dry Hop</use>
-          <time>4320.00</time>
-          <notes>
+          </hop:notes>
+          <hop:type>Aroma</hop:type>
+          <hop:form>Pellet</hop:form>
+          <hop:beta>2.00</hop:beta>
+          <hop:hsi>35.0</hop:hsi>
+          <hop:display_amount>0.50 oz</hop:display_amount>
+          <hop:inventory>0.50 oz</hop:inventory>
+          <hop:display_time>2 min</hop:display_time>
+        </hop:hop>
+        <hop:hop>
+          <hop:name>Fuggles</hop:name>
+          <hop:version>1</hop:version>
+          <hop:origin>United Kingdom</hop:origin>
+          <hop:alpha>4.50</hop:alpha>
+          <hop:amount>0.0212620</hop:amount>
+          <hop:use>Dry Hop</hop:use>
+          <hop:time>4320.00</hop:time>
+          <hop:notes>
             Used For: General purpose bittering/aroma for English Ales, Dark Lagers Aroma: Mild, soft, grassy, floral aroma Substitute: East Kent Goldings, Williamette Examples: Samuel Smith's Pale Ale, Old Peculiar, Thomas Hardy's Ale
-          </notes>
-          <type>Aroma</type>
-          <form>Pellet</form>
-          <beta>2.00</beta>
-          <hsi>35.0</hsi>
-          <display_amount>0.75 oz</display_amount>
-          <inventory>0.75 oz</inventory>
-          <display_time>3 days</display_time>
-        </hop>
+          </hop:notes>
+          <hop:type>Aroma</hop:type>
+          <hop:form>Pellet</hop:form>
+          <hop:beta>2.00</hop:beta>
+          <hop:hsi>35.0</hop:hsi>
+          <hop:display_amount>0.75 oz</hop:display_amount>
+          <hop:inventory>0.75 oz</hop:inventory>
+          <hop:display_time>3 days</hop:display_time>
+        </hop:hop>
       </rec:hops>
       <rec:fermentables>
         <fermentable>
