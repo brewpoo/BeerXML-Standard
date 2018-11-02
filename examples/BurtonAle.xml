@@ -2,7 +2,9 @@
 <beer_xml xmlns="urn:beerxml:v2"
           xmlns:rec="urn:beerxml:recipe:v2"
           xmlns:hop="urn:beerxml:hop:v2"
-          xmlns:ferm="urn:beerxml:fermentable:v2">
+          xmlns:ferm="urn:beerxml:fermentable:v2"
+          xmlns:misc="urn:beerxml:miscellaneous:v2"
+          xmlns:yeast="urn:beerxml:yeast:v2">
   <version>2.06</version>
   <recipes>
     <recipe>
@@ -171,70 +173,70 @@
         </ferm:fermentable>
       <rec:/fermentables>
       <rec:miscs>
-        <misc>
-          <name>Irish Moss</name>
-          <version>1</version>
-          <type>Fining</type>
-          <use>Boil</use>
-          <amount>0.001232</amount>
-          <time>10.000</time>
-          <amount_is_weight>FALSE</amount_is_weight>
-          <use_for>Clarity</use_for>
-          <notes>
+        <misc:misc>
+          <misc:name>Irish Moss</misc:name>
+          <misc:version>1</misc:version>
+          <misc:type>Fining</misc:type>
+          <misc:use>Boil</misc:use>
+          <misc:amount>0.001232</misc:amount>
+          <misc:time>10.000</misc:time>
+          <misc:amount_is_weight>FALSE</misc:amount_is_weight>
+          <misc:use_for>Clarity</misc:use_for>
+          <misc:notes>
             Fining agent that aids in the post-boil protein break. Reduces protein chill haze and improves beer clarity.
-          </notes>
-          <display_amount>0.25 tsp</display_amount>
-          <inventory>0.00 tsp</inventory>
-          <display_time>10.0 min</display_time>
-          <batch_size>5.00 gal</batch_size>
-        </misc>
-        <misc>
-          <name>Polyclar</name>
-          <version>1</version>
-          <type>Fining</type>
-          <use>Secondary</use>
-          <amount>0.007393</amount>
-          <time>1440.000</time>
-          <amount_is_weight>FALSE</amount_is_weight>
-          <use_for>Chill Haze</use_for>
-          <notes>
+          </misc:notes>
+          <misc:display_amount>0.25 tsp</misc:display_amount>
+          <misc:inventory>0.00 tsp</misc:inventory>
+          <misc:display_time>10.0 min</misc:display_time>
+          <misc:batch_size>5.00 gal</misc:batch_size>
+        </misc:misc>
+        <misc:misc>
+          <misc:name>Polyclar</misc:name>
+          <misc:version>1</misc:version>
+          <misc:type>Fining</misc:type>
+          <misc:use>Secondary</misc:use>
+          <misc:amount>0.007393</misc:amount>
+          <misc:time>1440.000</misc:time>
+          <misc:amount_is_weight>FALSE</misc:amount_is_weight>
+          <misc:use_for>Chill Haze</misc:use_for>
+          <misc:notes>
             Plastic powder that reduces chill haze by removing tannins and proteins. Add to secondary after yeast has settled. Amounts vary by manufacturer -- check instructions before adding. Do not boil.
-          </notes>
-          <display_amount>0.25 oz</display_amount>
-          <inventory>0.00 oz</inventory>
-          <display_time>1.0 days</display_time>
-          <batch_size>5.00 gal</batch_size>
-        </misc>
+          </misc:notes>
+          <misc:display_amount>0.25 oz</misc:display_amount>
+          <misc:inventory>0.00 oz</misc:inventory>
+          <misc:display_time>1.0 days</misc:display_time>
+          <misc:batch_size>5.00 gal</misc:batch_size>
+        </misc:misc>
       </rec:miscs>
       <rec:yeasts>
-        <yeast>
-          <name>Burton Ale</name>
-          <version>1</version>
-          <type>Ale</type>
-          <form>Liquid</form>
-          <amount>0.0350130</amount>
-          <amount_is_weight>FALSE</amount_is_weight>
-          <laboratory>White Labs</laboratory>
-          <product_id>WLP023</product_id>
-          <min_temperature>20.0000</min_temperature>
-          <max_temperature>22.7778</max_temperature>
-          <flocculation>Medium</flocculation>
-          <attenuation>72.0</attenuation>
-          <notes>
+        <yeast:yeast>
+          <yeast:name>Burton Ale</yeast:name>
+          <yeast:version>1</yeast:version>
+          <yeast:type>Ale</yeast:type>
+          <yeast:form>Liquid</yeast:form>
+          <yeast:amount>0.0350130</yeast:amount>
+          <yeast:amount_is_weight>FALSE</yeast:amount_is_weight>
+          <yeast:laboratory>White Labs</yeast:laboratory>
+          <yeast:product_id>WLP023</yeast:product_id>
+          <yeast:min_temperature>20.0000</min_temperature>
+          <yeast:max_temperature>22.7778</yeast:max_temperature>
+          <yeast:flocculation>Medium</yeast:flocculation>
+          <yeast:attenuation>72.0</yeast:attenuation>
+          <yeast:notes>
             Burton-on-trent yeast produces a complex character. Flavors include apple, pear, and clover honey.
-          </notes>
-          <best_for>
+          </yeast:notes>
+          <yeast:best_for>
             All English styles including Pale Ale, IPA, Porter, Stout and Bitters.
-          </best_for>
-          <max_reuse>5</max_reuse>
-          <times_cultured>0</times_cultured>
-          <add_to_secondary>FALSE</add_to_secondary>
-          <display_amount>35 ml</display_amount>
-          <disp_min_temp>68.0 F</disp_min_temp>
-          <disp_max_temp>73.0 F</disp_max_temp>
-          <inventory>0 Pkgs</inventory>
-          <culture_date>7/6/2003</culture_date>
-        </yeast>
+          </yeast:best_for>
+          <yeast:max_reuse>5</yeast:max_reuse>
+          <yeast:times_cultured>0</yeast:times_cultured>
+          <yeast:add_to_secondary>FALSE</yeast:add_to_secondary>
+          <yeast:display_amount>35 ml</yeast:display_amount>
+          <yeast:disp_min_temp>68.0 F</yeast:disp_min_temp>
+          <yeast:disp_max_temp>73.0 F</yeast:disp_max_temp>
+          <yeast:inventory>0 Pkgs</yeast:inventory>
+          <yeast:culture_date>7/6/2003</yeast:culture_date>
+        </yeast:yeast>
       </rec:yeasts>
       <rec:waters>
         <water>
