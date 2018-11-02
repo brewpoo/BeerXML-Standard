@@ -7,7 +7,8 @@
           xmlns:yeast="urn:beerxml:yeast:v2"
           xmlns:water="urn:beerxml:water:v2"
           xmlns:style="urn:beerxml:style:v2"
-          xmlns:equip="urn:beerxml:equipment:v2">
+          xmlns:equip="urn:beerxml:equipment:v2"
+          xmlns:mash="urn:beerxml:mash:v2">
   <version>2.06</version>
   <recipes>
     <recipe>
@@ -336,54 +337,54 @@
         <equip:display_top_up_kettle>0.00 gal</equip:display_top_up_kettle>
       </rec:equipment>
       <rec:mash>
-        <name>Single Infusion, Full Body</name>
-        <version>1</version>
-        <grain_temp>22.22222200</grain_temp>
-        <tun_temp>22.22222200</tun_temp>
-        <sparge_temp>75.55555600</sparge_temp>
-        <ph>5.4</ph>
-        <tun_weight>1.81436800</tun_weight>
-        <tun_specific_heat>0.30000000</tun_specific_heat>
-        <equip_adjust>FALSE</equip_adjust>
-        <notes/>
-        <display_grain_temp>72.0 F</display_grain_temp>
-        <display_tun_temp>72.0</display_tun_temp>
-        <display_sparge_temp>168.0 F</display_sparge_temp>
-        <display_tun_weight>4.00 lb</display_tun_weight>
-        <mash_steps>
-          <mash_step>
-            <name>Mash In</name>
-            <version>1</version>
-            <type>Infusion</type>
-            <infuse_amount>10.646532</infuse_amount>
-            <step_time>45</step_time>
-            <step_temp>70.00000000</step_temp>
-            <ramp_time>2</ramp_time>
-            <end_temp>70.00000000</end_temp>
-            <description>Add 11.25 qt of water at 170.5 F</description>
-            <water_grain_ratio>1.25</water_grain_ratio>
-            <decoction_amt>0.00 qt</decoction_amt>
-            <infuse_temp>170.5 F</infuse_temp>
-            <display_step_temp>DISPLAY_STEP_TEMP</display_step_temp>
-            <display_infuse_amt>11.25 qt</display_infuse_amt>
-          </mash_step>
-          <mash_step>
-            <name>Mash Out</name>
-            <version>1</version>
-            <type>Infusion</type>
-            <infuse_amount>6.813780</infuse_amount>
-            <step_time>10</step_time>
-            <step_temp>75.55555600</step_temp>
-            <ramp_time>2</ramp_time>
-            <end_temp>75.55555600</end_temp>
-            <description>Add 7.20 qt of water at 185.9 F</description>
-            <water_grain_ratio>2.05</water_grain_ratio>
-            <decoction_amt>0.00 qt</decoction_amt>
-            <infuse_temp>185.9 F</infuse_temp>
-            <display_step_temp>DISPLAY_STEP_TEMP</display_step_temp>
-            <display_infuse_amt>7.20 qt</display_infuse_amt>
-          </mash_step>
-        </mash_steps>
+        <mash:name>Single Infusion, Full Body</mash:name>
+        <mash:version>1</version>
+        <mash:grain_temp>22.22222200</mash:grain_temp>
+        <mash:tun_temp>22.22222200</mash:tun_temp>
+        <mash:sparge_temp>75.55555600</mash:sparge_temp>
+        <mash:ph>5.4</mash:ph>
+        <mash:tun_weight>1.81436800</mash:tun_weight>
+        <mash:tun_specific_heat>0.30000000</mash:tun_specific_heat>
+        <mash:equip_adjust>FALSE</mash:equip_adjust>
+        <mash:notes/>
+        <mash:display_grain_temp>72.0 F</mash:display_grain_temp>
+        <mash:display_tun_temp>72.0</mash:display_tun_temp>
+        <mash:display_sparge_temp>168.0 F</mash:display_sparge_temp>
+        <mash:display_tun_weight>4.00 lb</mash:display_tun_weight>
+        <mash:mash_steps>
+          <mash:mash_step>
+            <mash:name>Mash In</mash:name>
+            <mash:version>1</mash:version>
+            <mash:type>Infusion</mash:type>
+            <mash:infuse_amount>10.646532</mash:infuse_amount>
+            <mash:step_time>45</mash:step_time>
+            <mash:step_temp>70.00000000</mash:step_temp>
+            <mash:ramp_time>2</mash:ramp_time>
+            <mash:end_temp>70.00000000</mash:end_temp>
+            <mash:description>Add 11.25 qt of water at 170.5 F</mash:description>
+            <mash:water_grain_ratio>1.25</mash:water_grain_ratio>
+            <mash:decoction_amt>0.00 qt</mash:decoction_amt>
+            <mash:infuse_temp>170.5 F</mash:infuse_temp>
+            <mash:display_step_temp>DISPLAY_STEP_TEMP</mash:display_step_temp>
+            <mash:display_infuse_amt>11.25 qt</mash:display_infuse_amt>
+          </mash:mash_step>
+          <mash:mash_step>
+            <mash:name>Mash Out</mash:name>
+            <mash:version>1</mash:version>
+            <mash:type>Infusion</mash:type>
+            <mash:infuse_amount>6.813780</mash:infuse_amount>
+            <mash:step_time>10</step_time>
+            <mash:step_temp>75.55555600</mash:step_temp>
+            <mash:ramp_time>2</mash:ramp_time>
+            <mash:end_temp>75.55555600</mash:end_temp>
+            <mash:description>Add 7.20 qt of water at 185.9 F</mash:description>
+            <mash:water_grain_ratio>2.05</mash:water_grain_ratio>
+            <mash:decoction_amt>0.00 qt</mash:decoction_amt>
+            <mash:infuse_temp>185.9 F</mash:infuse_temp>
+            <mash:display_step_temp>DISPLAY_STEP_TEMP</mash:display_step_temp>
+            <mash:display_infuse_amt>7.20 qt</mash:display_infuse_amt>
+          </mash:mash_step>
+        </mash:mash_steps>
       </rec:mash>
       <rec:notes/>
       <rec:taste_notes>
