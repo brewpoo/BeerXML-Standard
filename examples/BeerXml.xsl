@@ -20,7 +20,13 @@
           <ul>
             <xsl:for-each
              select="/b:beer_xml/b:recipes/b:recipe/rec:hops/hop:hop">
-              <li><xsl:value-of select="hop:name"/></li>
+
+                <xsl:if test="hop:use='Boil'">
+                  <li>
+                    <xsl:value-of select="hop:name"/>
+                  </li>
+                </xsl:if>
+
             </xsl:for-each>
           </ul>
 
