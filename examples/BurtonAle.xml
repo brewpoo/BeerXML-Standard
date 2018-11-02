@@ -259,52 +259,52 @@
         </water:water>
       </rec:waters>
       <rec:style>
-        <name>English Pale Ale</name>
-        <version>1</version>
-        <category>Bitter & English Pale Ale</category>
-        <category_number>1</category_number>
-        <style_letter>A</style_letter>
-        <style_guide>BJCP 1999</style_guide>
-        <type>Ale</type>
-        <og_min>1.04300000</og_min>
-        <og_max>1.06000000</og_max>
-        <fg_min>1.01000000</fg_min>
-        <fg_max>1.02000000</fg_max>
-        <ibu_min>20.0</ibu_min>
-        <ibu_max>40.0</ibu_max>
-        <color_min>6.00000000</color_min>
-        <color_max>12.00000000</color_max>
-        <carb_min>1.5</carb_min>
-        <carb_max>2.4></carb_max>
-        <abv_max>5.5</abv_max>
-        <abv_min>4.5</abv_min>
-        <notes>
+        <style:name>English Pale Ale</style:name>
+        <style:version>1</style:version>
+        <style:category>Bitter & English Pale Ale</style:category>
+        <style:category_number>1</style:category_number>
+        <style:style_letter>A</style:style_letter>
+        <style:style_guide>BJCP 1999</style:style_guide>
+        <style:type>Ale</style:type>
+        <style:og_min>1.04300000</style:og_min>
+        <style:og_max>1.06000000</style:og_max>
+        <style:fg_min>1.01000000</style:fg_min>
+        <style:fg_max>1.02000000</style:fg_max>
+        <style:ibu_min>20.0</style:ibu_min>
+        <style:ibu_max>40.0</style:ibu_max>
+        <style:color_min>6.00000000</style:color_min>
+        <style:color_max>12.00000000</style:color_max>
+        <style:carb_min>1.5</style:carb_min>
+        <style:carb_max>2.4></style:carb_max>
+        <style:abv_max>5.5</style:abv_max>
+        <style:abv_min>4.5</style:abv_min>
+        <style:notes>
           Famous style from Burton-on-Trent. Stronger body than ordinary bitter,
         but slightly less bitter. A balanced,
         easy drinking beer that is malty and strong but not overbearing.
-        </notes>
-        <profile>
+      </style:notes>
+        <style:profile>
           Medium to full body,
         with medium to high bitterness and hop aroma. Dry with a defined hop flavor. Golden to copper color. Crystal malt evident. Low carbonation for kegs,
         medium for bottled version.
-        </profile>
-        <ingredients>
+      </style:profile>
+        <style:ingredients>
           English malt. Crystal malt. English hops. Water with high Calcium Sulfate (gypsum) profile enhances bitterness perception (i.e. famous Burton-on-Trent Water)
-        </ingredients>
-        <examples>Bass Pale Ale,Whitbread Pale Ale,Royal Oak
-        </examples>
-        <display_og_min>1.043 SG</display_og_min>
-        <display_og_max>1.060 SG</display_og_max>
-        <display_fg_min>1.010 SG</display_fg_min>
-        <display_fg_max>1.020 SG</display_fg_max>
-        <display_color_min>6.0 SRM</display_color_min>
-        <display_color_max>12.0 SRM</display_color_max>
-        <og_range>1.043-1.060 SG</og_range>
-        <fg_range>1.010-1.020 SG</fg_range>
-        <ibu_range>20.0-40.0 IBU</ibu_range>
-        <carb_range>1.5-2.4 vols</carb_range>
-        <color_range>6.0-12.0 SRM</color_range>
-        <abv_range>4.5-5.5 %</abv_range>
+        </style:ingredients>
+        <style:examples>Bass Pale Ale,Whitbread Pale Ale,Royal Oak
+        </style:examples>
+        <style:display_og_min>1.043 SG</style:display_og_min>
+        <style:display_og_max>1.060 SG</style:display_og_max>
+        <style:display_fg_min>1.010 SG</style:display_fg_min>
+        <style:display_fg_max>1.020 SG</style:display_fg_max>
+        <style:display_color_min>6.0 SRM</style:display_color_min>
+        <style:display_color_max>12.0 SRM</style:display_color_max>
+        <style:og_range>1.043-1.060 SG</style:og_range>
+        <style:fg_range>1.010-1.020 SG</style:fg_range>
+        <style:ibu_range>20.0-40.0 IBU</style:ibu_range>
+        <style:carb_range>1.5-2.4 vols</style:carb_range>
+        <style:color_range>6.0-12.0 SRM</style:color_range>
+        <style:abv_range>4.5-5.5 %</style:abv_range>
       </rec:style>
       <rec:equipment>
         <name>Brew Pot (6+gal) and Igloo/Gott Cooler (5 Gal)</name>
