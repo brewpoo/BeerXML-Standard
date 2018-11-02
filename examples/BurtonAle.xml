@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="BeerXml.xsl"?>
 <beer_xml xmlns="urn:beerxml:v2"
           xmlns:rec="urn:beerxml:recipe:v2"
           xmlns:hop="urn:beerxml:hop:v2"
@@ -175,7 +176,7 @@
           <ferm:potential>1.046</ferm:potential>
           <ferm:display_color>8.0 SRM</ferm:display_color>
         </ferm:fermentable>
-      <rec:/fermentables>
+      </rec:fermentables>
       <rec:miscs>
         <misc:misc>
           <misc:name>Irish Moss</misc:name>
@@ -222,7 +223,7 @@
           <yeast:amount_is_weight>FALSE</yeast:amount_is_weight>
           <yeast:laboratory>White Labs</yeast:laboratory>
           <yeast:product_id>WLP023</yeast:product_id>
-          <yeast:min_temperature>20.0000</min_temperature>
+          <yeast:min_temperature>20.0000</yeast:min_temperature>
           <yeast:max_temperature>22.7778</yeast:max_temperature>
           <yeast:flocculation>Medium</yeast:flocculation>
           <yeast:attenuation>72.0</yeast:attenuation>
@@ -246,11 +247,11 @@
         <water:water>
           <water:name>Burton On Trent, UK</water:name>
           <water:version>1</water:version>
-          <awater:mount>18.927168</water:amount>
+          <water:amount>18.927168</water:amount>
           <water:calcium>295.0</water:calcium>
           <water:bicarbonate>300.0</water:bicarbonate>
           <water:sulfate>725.0</water:sulfate>
-          <cwater:hloride>25.0</water:chloride>
+          <water:chloride>25.0</water:chloride>
           <water:sodium>55.0</water:sodium>
           <water:magnesium>45.0</water:magnesium>
           <water:ph>8.0</water:ph>
@@ -263,7 +264,7 @@
       <rec:style>
         <style:name>English Pale Ale</style:name>
         <style:version>1</style:version>
-        <style:category>Bitter & English Pale Ale</style:category>
+        <style:category>Bitter and English Pale Ale</style:category>
         <style:category_number>1</style:category_number>
         <style:style_letter>A</style:style_letter>
         <style:style_guide>BJCP 1999</style:style_guide>
@@ -338,7 +339,7 @@
       </rec:equipment>
       <rec:mash>
         <mash:name>Single Infusion, Full Body</mash:name>
-        <mash:version>1</version>
+        <mash:version>1</mash:version>
         <mash:grain_temp>22.22222200</mash:grain_temp>
         <mash:tun_temp>22.22222200</mash:tun_temp>
         <mash:sparge_temp>75.55555600</mash:sparge_temp>
@@ -373,7 +374,7 @@
             <mash:version>1</mash:version>
             <mash:type>Infusion</mash:type>
             <mash:infuse_amount>6.813780</mash:infuse_amount>
-            <mash:step_time>10</step_time>
+            <mash:step_time>10</mash:step_time>
             <mash:step_temp>75.55555600</mash:step_temp>
             <mash:ramp_time>2</mash:ramp_time>
             <mash:end_temp>75.55555600</mash:end_temp>
@@ -414,7 +415,7 @@
       <rec:actual_efficiency>69.7 %</rec:actual_efficiency>
       <rec:calories>242 cal/pint</rec:calories>
       <rec:display_batch_size>5.00 gal</rec:display_batch_size>
-      <rec:display_boil_size>5.50 gal</display_boil_size>
+      <rec:display_boil_size>5.50 gal</rec:display_boil_size>
       <rec:display_og>1.054 SG</rec:display_og>
       <rec:display_fg>1.015 SG</rec:display_fg>
       <rec:display_primary_temp>68.0 F</rec:display_primary_temp>
