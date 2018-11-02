@@ -6,7 +6,8 @@
           xmlns:misc="urn:beerxml:miscellaneous:v2"
           xmlns:yeast="urn:beerxml:yeast:v2"
           xmlns:water="urn:beerxml:water:v2"
-          xmlns:style="urn:beerxml:style:v2">
+          xmlns:style="urn:beerxml:style:v2"
+          xmlns:equip="urn:beerxml:equipment:v2">
   <version>2.06</version>
   <recipes>
     <recipe>
@@ -307,32 +308,32 @@
         <style:abv_range>4.5-5.5 %</style:abv_range>
       </rec:style>
       <rec:equipment>
-        <name>Brew Pot (6+gal) and Igloo/Gott Cooler (5 Gal)</name>
-        <version>1</version>
-        <boil_size>22.70566900</boil_size>
-        <batch_size>18.927168</batch_size>
-        <tun_volume>18.92716800</tun_volume>
-        <tun_weight>1.814368</tun_weight>
-        <tun_specific_heat>0.300</tun_specific_heat>
-        <top_up_water>0.00000000</top_up_water>
-        <trub_chiller_loss>0.94635800</trub_chiller_loss>
-        <evap_rate>9.0</evap_rate>
-        <boil_time>60.0</boil_time>
-        <calc_boil_volume>FALSE</calc_boil_volume>
-        <lauter_deadspace>0.94635800</lauter_deadspace>
-        <top_up_kettle>0.00000000</top_up_kettle>
-        <hop_utilization>100.0</hop_utilization>
-        <notes>
+        <equip:name>Brew Pot (6+gal) and Igloo/Gott Cooler (5 Gal)</equip:name>
+        <equip:version>1</equip:version>
+        <equip:boil_size>22.70566900</equip:boil_size>
+        <equip:batch_size>18.927168</equip:batch_size>
+        <equip:tun_volume>18.92716800</equip:tun_volume>
+        <equip:tun_weight>1.814368</equip:tun_weight>
+        <equip:tun_specific_heat>0.300</equip:tun_specific_heat>
+        <equip:top_up_water>0.00000000</equip:top_up_water>
+        <equip:trub_chiller_loss>0.94635800</equip:trub_chiller_loss>
+        <equip:evap_rate>9.0</equip:evap_rate>
+        <equip:boil_time>60.0</equip:boil_time>
+        <equip:calc_boil_volume>FALSE</equip:calc_boil_volume>
+        <equip:lauter_deadspace>0.94635800</equip:lauter_deadspace>
+        <equip:top_up_kettle>0.00000000</equip:top_up_kettle>
+        <equip:hop_utilization>100.0</equip:hop_utilization>
+        <equip:notes>
           Popular all grain setup. 5 Gallon Gott or Igloo cooler as mash tun with false bottom, and 7-9 gallon brewpot capable of boiling at least 6 gallons of wort. Primarily used for single infusion mashes.
-        </notes>
-        <display_boil_size>6.00 gal</display_boil_size>
-        <display_batch_size>5.00 gal</display_batch_size>
-        <display_tun_volume>5.00 gal</display_tun_volume>
-        <display_tun_weight>4.00 lb</display_tun_weight>
-        <display_top_up_water>0.00 gal</display_top_up_water>
-        <display_trub_chiller_loss>0.25 gal</display_trub_chiller_loss>
-        <display_lauter_deadspace>0.25 gal</display_lauter_deadspace>
-        <display_top_up_kettle>0.00 gal</display_top_up_kettle>
+        </equip:notes>
+        <equip:display_boil_size>6.00 gal</equip:display_boil_size>
+        <equip:display_batch_size>5.00 gal</equip:display_batch_size>
+        <equip:display_tun_volume>5.00 gal</equip:display_tun_volume>
+        <equip:display_tun_weight>4.00 lb</equip:display_tun_weight>
+        <equip:display_top_up_water>0.00 gal</equip:display_top_up_water>
+        <equip:display_trub_chiller_loss>0.25 gal</equip:display_trub_chiller_loss>
+        <equip:display_lauter_deadspace>0.25 gal</equip:display_lauter_deadspace>
+        <equip:display_top_up_kettle>0.00 gal</equip:display_top_up_kettle>
       </rec:equipment>
       <rec:mash>
         <name>Single Infusion, Full Body</name>
