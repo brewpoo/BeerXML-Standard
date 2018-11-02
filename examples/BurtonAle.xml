@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <beer_xml xmlns="urn:beerxml:v2"
           xmlns:rec="urn:beerxml:recipe:v2"
-          xmlns:hop="urn:beerxml:hop:v2">
+          xmlns:hop="urn:beerxml:hop:v2"
+          xmlns:ferm="urn:beerxml:fermentable:v2">
   <version>2.06</version>
   <recipes>
     <recipe>
@@ -93,81 +94,81 @@
         </hop:hop>
       </rec:hops>
       <rec:fermentables>
-        <fermentable>
-          <name>Pale Malt (2 Row) UK</name>
-          <version>1</version>
-          <type>Grain</type>
-          <amount>3.628736</amount>
-          <yield>78.0</yield>
-          <color>2.5</color>
-          <add_after_boil>FALSE</add_after_boil>
-          <origin>United Kingdom</origin>
-          <supplier/>
-          <notes>
+        <ferm:fermentable>
+          <ferm:name>Pale Malt (2 Row) UK</ferm:name>
+          <ferm:version>1</ferm:version>
+          <ferm:type>Grain</ferm:type>
+          <ferm:amount>3.628736</ferm:amount>
+          <ferm:yield>78.0</ferm:yield>
+          <ferm:color>2.5</ferm:color>
+          <ferm:add_after_boil>FALSE</ferm:add_after_boil>
+          <ferm:origin>United Kingdom</ferm:origin>
+          <ferm:supplier/>
+          <ferm:notes>
             Base malt for all English beer styles Lower diastatic power than American 2 Row Pale Malt
-          </notes>
-          <coarse_fine_diff>1.5</coarse_fine_diff>
-          <moisture>4.0</moisture>
-          <diastatic_power>45.0</diastatic_power>
-          <protein>10.1</protein>
-          <max_in_batch>100.0</max_in_batch>
-          <recommend_mash>FALSE</recommend_mash>
-          <ibu_gal_per_lb>0.000</ibu_gal_per_lb>
-          <display_amount>8.00 lb</display_amount>
-          <inventory>8.00 lb</inventory>
-          <potential>1.036</potential>
-          <display_color>2.5 SRM</display_color>
-        </fermentable>
-        <fermentable>
-          <name>Caramel/Crystal Malt - 20L</name>
-          <version>1</version>
-          <type>Grain</type>
-          <amount>0.453592</amount>
-          <yield>75.0</yield>
-          <color>20.0</color>
-          <add_after_boil>FALSE</add_after_boil>
-          <origin>US</origin>
-          <supplier/>
-          <notes>
+          </ferm:notes>
+          <ferm:coarse_fine_diff>1.5</ferm:coarse_fine_diff>
+          <ferm:moisture>4.0</ferm:moisture>
+          <ferm:diastatic_power>45.0</ferm:diastatic_power>
+          <ferm:protein>10.1</ferm:protein>
+          <ferm:max_in_batch>100.0</ferm:max_in_batch>
+          <ferm:recommend_mash>FALSE</ferm:recommend_mash>
+          <ferm:ibu_gal_per_lb>0.000</ferm:ibu_gal_per_lb>
+          <ferm:display_amount>8.00 lb</ferm:display_amount>
+          <ferm:inventory>8.00 lb</ferm:inventory>
+          <ferm:potential>1.036</ferm:potential>
+          <ferm:display_color>2.5 SRM</ferm:display_color>
+        </ferm:fermentable>
+        <ferm:fermentable>
+          <ferm:name>Caramel/Crystal Malt - 20L</ferm:name>
+          <ferm:version>1</ferm:version>
+          <ferm:type>Grain</ferm:type>
+          <ferm:amount>0.453592</ferm:amount>
+          <ferm:yield>75.0</ferm:yield>
+          <ferm:color>20.0</ferm:color>
+          <ferm:add_after_boil>FALSE</ferm:add_after_boil>
+          <ferm:origin>US</ferm:origin>
+          <ferm:supplier/>
+          <ferm:notes>
             Adds body, color and improves head retention. Also called "Crystal" malt.
-          </notes>
-          <coarse_fine_diff>1.5</coarse_fine_diff>
-          <moisture>4.0</moisture>
-          <diastatic_power>0.0</diastatic_power>
-          <protein>13.2</protein>
-          <max_in_batch>20.0</max_in_batch>
-          <recommend_mash>FALSE</recommend_mash>
-          <ibu_gal_per_lb>0.000</ibu_gal_per_lb>
-          <display_amount>1.00 lb</display_amount>
-          <inventory>1.00 lb</inventory>
-          <potential>1.035</potential>
-          <display_color>20.0 SRM</display_color>
-        </fermentable>
-        <fermentable>
-          <name>Brown Sugar, Light</name>
-          <version>1</version>
-          <type>Sugar</type>
-          <amount>0.453592</amount>
-          <yield>100.0</yield>
-          <color>8.0</color>
-          <add_after_boil>FALSE</add_after_boil>
-          <origin>US</origin>
-          <supplier/>
-          <notes>
+          </ferm:notes>
+          <ferm:coarse_fine_diff>1.5</ferm:coarse_fine_diff>
+          <ferm:moisture>4.0</ferm:moisture>
+          <ferm:diastatic_power>0.0</ferm:diastatic_power>
+          <ferm:protein>13.2</ferm:protein>
+          <ferm:max_in_batch>20.0</ferm:max_in_batch>
+          <ferm:recommend_mash>FALSE</ferm:recommend_mash>
+          <ferm:ibu_gal_per_lb>0.000</ferm:ibu_gal_per_lb>
+          <ferm:display_amount>1.00 lb</ferm:display_amount>
+          <ferm:inventory>1.00 lb</ferm:inventory>
+          <ferm:potential>1.035</ferm:potential>
+          <ferm:display_color>20.0 SRM</ferm:display_color>
+        </ferm:fermentable>
+        <ferm:fermentable>
+          <ferm:name>Brown Sugar, Light</ferm:name>
+          <ferm:version>1</ferm:version>
+          <ferm:type>Sugar</ferm:type>
+          <ferm:amount>0.453592</ferm:amount>
+          <ferm:yield>100.0</ferm:yield>
+          <ferm:color>8.0</ferm:color>
+          <ferm:add_after_boil>FALSE</ferm:add_after_boil>
+          <ferm:origin>US</ferm:origin>
+          <ferm:supplier/>
+          <ferm:notes>
             Imparts a rich sweet flavor. Used in Scottish ales, holiday ales and some old ales.
-          </notes>
-          <coarse_fine_diff>-</coarse_fine_diff>
-          <moisture>-</moisture>
-          <diastatic_power>-</diastatic_power>
-          <protein>-</protein>
-          <max_in_batch>10.0</max_in_batch>
-          <recommend_mash>FALSE</recommend_mash>
-          <ibu_gal_per_lb>0.000</ibu_gal_per_lb>
-          <display_amount>1.00 lb</display_amount>
-          <inventory>1.00 lb</inventory>
-          <potential>1.046</potential>
-          <display_color>8.0 SRM</display_color>
-        </fermentable>
+          </ferm:notes>
+          <ferm:coarse_fine_diff>-</ferm:coarse_fine_diff>
+          <ferm:moisture>-</ferm:moisture>
+          <ferm:diastatic_power>-</ferm:diastatic_power>
+          <ferm:protein>-</ferm:protein>
+          <ferm:max_in_batch>10.0</ferm:max_in_batch>
+          <ferm:recommend_mash>FALSE</ferm:recommend_mash>
+          <ferm:ibu_gal_per_lb>0.000</ferm:ibu_gal_per_lb>
+          <ferm:display_amount>1.00 lb</ferm:display_amount>
+          <ferm:inventory>1.00 lb</ferm:inventory>
+          <ferm:potential>1.046</ferm:potential>
+          <ferm:display_color>8.0 SRM</ferm:display_color>
+        </ferm:fermentable>
       <rec:/fermentables>
       <rec:miscs>
         <misc>
