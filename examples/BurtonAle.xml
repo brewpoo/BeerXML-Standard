@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="BeerXml.xsl"?>
-<beer_xml xmlns="urn:beerxml:v2"
-          xmlns:rec="urn:beerxml:recipe:v2"
-          xmlns:hop="urn:beerxml:hop:v2"
-          xmlns:ferm="urn:beerxml:fermentable:v2"
-          xmlns:misc="urn:beerxml:miscellaneous:v2"
-          xmlns:yeast="urn:beerxml:yeast:v2"
-          xmlns:water="urn:beerxml:water:v2"
-          xmlns:style="urn:beerxml:style:v2"
-          xmlns:equip="urn:beerxml:equipment:v2"
-          xmlns:mash="urn:beerxml:mash:v2">
+<beer_xml xmlns="urn:beerxml:v2" xmlns:rec="urn:beerxml:recipe:v2" xmlns:hop="urn:beerxml:hop:v2" xmlns:ferm="urn:beerxml:fermentable:v2" xmlns:misc="urn:beerxml:miscellaneous:v2" xmlns:yeast="urn:beerxml:yeast:v2" xmlns:water="urn:beerxml:water:v2" xmlns:style="urn:beerxml:style:v2" xmlns:equip="urn:beerxml:equipment:v2" xmlns:mash="urn:beerxml:mash:v2">
   <version>2.06</version>
   <recipes>
     <recipe>
@@ -285,12 +276,12 @@
           Famous style from Burton-on-Trent. Stronger body than ordinary bitter,
         but slightly less bitter. A balanced,
         easy drinking beer that is malty and strong but not overbearing.
-      </style:notes>
+        </style:notes>
         <style:profile>
           Medium to full body,
         with medium to high bitterness and hop aroma. Dry with a defined hop flavor. Golden to copper color. Crystal malt evident. Low carbonation for kegs,
         medium for bottled version.
-      </style:profile>
+        </style:profile>
         <style:ingredients>
           English malt. Crystal malt. English hops. Water with high Calcium Sulfate (gypsum) profile enhances bitterness perception (i.e. famous Burton-on-Trent Water)
         </style:ingredients>

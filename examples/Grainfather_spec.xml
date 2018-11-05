@@ -1,0 +1,14 @@
+<?xml version='1.0'?>
+<instructions>
+  <step>
+    <display_message>Message to the user</display_message>
+    <infusion>
+      <duration>How long the infusion will take</duration>
+      <quantity>How much liquid to infuse</quantity>
+      <temperature>The temperature of the infusion</temperature>
+    </infusion>
+    <max_temp>The temp the vessel should reach</max_temp>
+    <temp_ramp_time>The time it should take to ramp up the temperature</temp_ramp_time>
+  </step>
+  <step>...</step>
+</instructions>
